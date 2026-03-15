@@ -1,0 +1,18 @@
+{
+    "name": "acf/blog-page",
+    "title": "Blog Page",
+    "description": "Blog page template with a list of posts.",
+    "category": "layout",
+    "icon": "info",
+    "keywords": ["about", "o nama", "statistike"],
+    "acf": {
+      "mode": "edit",
+      "renderTemplate": "template-parts/blocks/blog-page/render.php"
+    },
+    "style": "file:./style.css",
+    "supports": {
+      "align": true,
+      "jsx": true
+    }
+  }
+  

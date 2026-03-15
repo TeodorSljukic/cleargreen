@@ -1,0 +1,4007 @@
+/* Titan-style landing page (scoped) */
+
+/* HAMBURGER IKONA - BIJELA KLASA - NAJVEĆI PRIORITET */
+/* FORSIRAJ BIJELU BOJU KADA HEADER NIJE STICKY - MAKSIMALNA SPECIFIČNOST */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-white,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-white,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-white,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-white,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-white,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-white,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* FORSIRAJ CRNU BOJU ZA IKONE KADA HEADER NIJE STICKY - MAKSIMALNA SPECIFIČNOST */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu i.ph-list,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-white i,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-white i,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-white i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-white i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-white i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-white i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white i,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-white .ph,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-white .ph-list,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-white .ph,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-white .ph-list,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white .ph,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white .ph-list {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* HAMBURGER IKONA - CRNA KLASA */
+.titan-gatekeeper .header .hamburger-black,
+.titan-gatekeeper .header button.hamburger-black,
+.titan-gatekeeper .header .toggle-mobileMenu.hamburger-black,
+body.home-three .titan-gatekeeper .header .hamburger-black,
+body.home-three .titan-gatekeeper .header button.hamburger-black,
+body.home-three .titan-gatekeeper .header .toggle-mobileMenu.hamburger-black,
+html body.home-three .titan-gatekeeper .header .hamburger-black,
+html body.home-three .titan-gatekeeper .header button.hamburger-black,
+html body.home-three .titan-gatekeeper .header .toggle-mobileMenu.hamburger-black {
+  color: #000000 !important;
+}
+
+.titan-gatekeeper .header .hamburger-black i,
+.titan-gatekeeper .header button.hamburger-black i,
+.titan-gatekeeper .header .toggle-mobileMenu.hamburger-black i,
+body.home-three .titan-gatekeeper .header .hamburger-black i,
+body.home-three .titan-gatekeeper .header button.hamburger-black i,
+body.home-three .titan-gatekeeper .header .toggle-mobileMenu.hamburger-black i,
+html body.home-three .titan-gatekeeper .header .hamburger-black i,
+html body.home-three .titan-gatekeeper .header button.hamburger-black i,
+html body.home-three .titan-gatekeeper .header .toggle-mobileMenu.hamburger-black i,
+.titan-gatekeeper .header .hamburger-black .ph,
+.titan-gatekeeper .header .hamburger-black .ph-list,
+.titan-gatekeeper .header button.hamburger-black .ph,
+.titan-gatekeeper .header button.hamburger-black .ph-list,
+.titan-gatekeeper .header .toggle-mobileMenu.hamburger-black .ph,
+.titan-gatekeeper .header .toggle-mobileMenu.hamburger-black .ph-list {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* HAMBURGER IKONA - BIJELA na normalnom headeru - NAJVEĆI PRIORITET - MORA BITI PRVO */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black,
+.titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu.hamburger-black {
+  color: #ffffff !important;
+  --bs-text-opacity: 1;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list,
+.titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i,
+.titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph,
+.titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu.hamburger-black i.ph-list {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* HAMBURGER IKONA - BIJELA na normalnom headeru - MAKSIMALNA SPECIFIČNOST */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-black,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-black {
+  color: #ffffff !important;
+  --bs-text-opacity: 1;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-black i,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-black i,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph,
+.titan-gatekeeper .header:not(.fixed-header) .hamburger-black .ph-list,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-black .ph,
+.titan-gatekeeper .header:not(.fixed-header) button.hamburger-black .ph-list {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* HAMBURGER IKONA - CRNA na sticky headeru */
+.titan-gatekeeper .header.fixed-header .hamburger-black,
+.titan-gatekeeper .header.fixed-header button.hamburger-black,
+body.home-three .titan-gatekeeper .header.fixed-header .hamburger-black,
+body.home-three .titan-gatekeeper .header.fixed-header button.hamburger-black,
+html body.home-three .titan-gatekeeper .header.fixed-header .hamburger-black,
+html body.home-three .titan-gatekeeper .header.fixed-header button.hamburger-black,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .hamburger-black,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.hamburger-black,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .hamburger-black,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.hamburger-black {
+  color: #000000 !important;
+  --bs-text-opacity: 1;
+}
+
+.titan-gatekeeper .header.fixed-header .hamburger-black i,
+.titan-gatekeeper .header.fixed-header button.hamburger-black i,
+body.home-three .titan-gatekeeper .header.fixed-header .hamburger-black i,
+body.home-three .titan-gatekeeper .header.fixed-header button.hamburger-black i,
+html body.home-three .titan-gatekeeper .header.fixed-header .hamburger-black i,
+html body.home-three .titan-gatekeeper .header.fixed-header button.hamburger-black i,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .hamburger-black i,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.hamburger-black i,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .hamburger-black i,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.hamburger-black i,
+.titan-gatekeeper .header.fixed-header .hamburger-black .ph,
+.titan-gatekeeper .header.fixed-header .hamburger-black .ph-list,
+.titan-gatekeeper .header.fixed-header button.hamburger-black .ph,
+.titan-gatekeeper .header.fixed-header button.hamburger-black .ph-list {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+.titan-gatekeeper .header.fixed-header .hamburger-black i::before,
+.titan-gatekeeper .header.fixed-header button.hamburger-black i::before,
+body.home-three .titan-gatekeeper .header.fixed-header .hamburger-black i::before,
+body.home-three .titan-gatekeeper .header.fixed-header button.hamburger-black i::before,
+html body.home-three .titan-gatekeeper .header.fixed-header .hamburger-black i::before,
+html body.home-three .titan-gatekeeper .header.fixed-header button.hamburger-black i::before {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* HAMBURGER IKONA - STICKY HEADER - CRNA - NAJVEĆI PRIORITET */
+/* Direktno za button.toggle-mobileMenu.text-white > i.ph.ph-list */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+html body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+.titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu i {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* Pseudo-elementi za font ikone */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+html body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+.titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white i.ph.ph-list::before,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i.ph.ph-list::before,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu i.ph.ph-list::before {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+html body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+.titan-gatekeeper .header.fixed-header button.toggle-mobileMenu.text-white,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu {
+  color: #000000 !important;
+  --bs-text-opacity: 1;
+}
+
+/* DIREKTAN OVERRIDE za sticky header - MORA biti na vrhu - MAKSIMALNA SPECIFIČNOST */
+/* Override SVE - bijela pozadina i crni linkovi */
+/* Direktan override za SVE linkove u sticky headeru - BEZ HOVER */
+html body.home-three .header.fixed-header .header-three__inner a:not(:hover),
+html body.home-three .header.fixed-header .header-three__inner .nav-menu__link:not(:hover),
+html body.home-three .header.fixed-header .header-three__inner .nav-menu__item > a:not(:hover),
+html body.home-three.crm-page .header.fixed-header .header-three__inner a:not(:hover),
+html body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__link:not(:hover),
+html body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__item > a:not(:hover),
+body.home-three .header.fixed-header .header-three__inner a:not(:hover),
+body.home-three .header.fixed-header .header-three__inner .nav-menu__link:not(:hover),
+body.home-three .header.fixed-header .header-three__inner .nav-menu__item > a:not(:hover),
+body.home-three.crm-page .header.fixed-header .header-three__inner a:not(:hover),
+body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__link:not(:hover),
+body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__item > a:not(:hover),
+.home-three .header.fixed-header .header-three__inner a:not(:hover),
+.home-three .header.fixed-header .header-three__inner .nav-menu__link:not(:hover),
+.home-three .header.fixed-header .header-three__inner .nav-menu__item > a:not(:hover),
+.header.fixed-header .header-three__inner a:not(:hover),
+.header.fixed-header .header-three__inner .nav-menu__link:not(:hover),
+.header.fixed-header .header-three__inner .nav-menu__item > a:not(:hover) {
+  color: #000000 !important;
+  font-size: 18px !important;
+}
+
+html body.home-three .header.fixed-header .header-three__inner,
+html body.home-three.crm-page .header.fixed-header .header-three__inner,
+html body.home-three.crm-page.wp-singular.page-template .header.fixed-header .header-three__inner,
+body.home-three .header.fixed-header .header-three__inner,
+body.home-three.crm-page .header.fixed-header .header-three__inner,
+body.home-three.crm-page.wp-singular.page-template .header.fixed-header .header-three__inner,
+.home-three .header.fixed-header .header-three__inner,
+.home-three.crm-page .header.fixed-header .header-three__inner {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+html body.home-three .header.fixed-header .header-three__inner .nav-menu__link,
+html body.home-three .header.fixed-header .header-three__inner .nav-menu__item > a,
+html body.home-three .header.fixed-header .header-three__inner a.nav-menu__link,
+html body.home-three .header.fixed-header .header-three__inner nav .nav-menu__item > a,
+html body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__link,
+html body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__item > a,
+html body.home-three.crm-page .header.fixed-header .header-three__inner a.nav-menu__link,
+html body.home-three.crm-page .header.fixed-header .header-three__inner nav .nav-menu__item > a,
+body.home-three .header.fixed-header .header-three__inner .nav-menu__link,
+body.home-three .header.fixed-header .header-three__inner .nav-menu__item > a,
+body.home-three .header.fixed-header .header-three__inner a.nav-menu__link,
+body.home-three .header.fixed-header .header-three__inner nav .nav-menu__item > a,
+body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__link,
+body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__item > a,
+body.home-three.crm-page .header.fixed-header .header-three__inner a.nav-menu__link,
+body.home-three.crm-page .header.fixed-header .header-three__inner nav .nav-menu__item > a,
+.home-three .header.fixed-header .header-three__inner .nav-menu__link,
+.home-three .header.fixed-header .header-three__inner .nav-menu__item > a,
+.home-three .header.fixed-header .header-three__inner a.nav-menu__link,
+.home-three .header.fixed-header .header-three__inner nav .nav-menu__item > a,
+.header.fixed-header .header-three__inner .nav-menu__link,
+.header.fixed-header .header-three__inner .nav-menu__item > a {
+  color: #000000 !important;
+}
+
+html body.home-three .header.fixed-header .header-three__inner .nav-menu__link:hover,
+html body.home-three .header.fixed-header .header-three__inner .nav-menu__item:hover > a,
+html body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__item:hover > a,
+body.home-three .header.fixed-header .header-three__inner .nav-menu__link:hover,
+body.home-three .header.fixed-header .header-three__inner .nav-menu__item:hover > a,
+body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__link:hover,
+body.home-three.crm-page .header.fixed-header .header-three__inner .nav-menu__item:hover > a,
+.home-three .header.fixed-header .header-three__inner .nav-menu__link:hover,
+.home-three .header.fixed-header .header-three__inner .nav-menu__item:hover > a {
+  color: #000000 !important;
+  font-size: 18px !important;
+}
+
+/* DIREKTAN OVERRIDE za sticky header - MORA biti na vrhu - MAKSIMALNA SPECIFIČNOST */
+/* Override .home-three .header.fixed-header iz main.css */
+html body.home-three .titan-gatekeeper .header.fixed-header,
+html body.home-three .header.fixed-header.titan-gatekeeper,
+body.home-three .titan-gatekeeper .header.fixed-header,
+body.home-three .header.fixed-header.titan-gatekeeper,
+.home-three .titan-gatekeeper .header.fixed-header,
+.home-three .header.fixed-header.titan-gatekeeper,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.position-absolute.fixed-header,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header,
+html body.home-three.crm-page .titan-gatekeeper .header.position-absolute.fixed-header,
+html body.home-three .titan-gatekeeper .header.fixed-header,
+html body.home-three .titan-gatekeeper .header.position-absolute.fixed-header,
+html body.home-three .header.fixed-header.titan-gatekeeper,
+html body.home-three .header.position-absolute.fixed-header.titan-gatekeeper,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.position-absolute.fixed-header,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header,
+body.home-three.crm-page .titan-gatekeeper .header.position-absolute.fixed-header,
+body.home-three .titan-gatekeeper .header.fixed-header,
+body.home-three .titan-gatekeeper .header.position-absolute.fixed-header,
+body.home-three .header.fixed-header.titan-gatekeeper,
+body.home-three .header.position-absolute.fixed-header.titan-gatekeeper,
+.home-three.crm-page .titan-gatekeeper .header.fixed-header,
+.home-three.crm-page .titan-gatekeeper .header.position-absolute.fixed-header,
+.home-three .titan-gatekeeper .header.fixed-header,
+.home-three .titan-gatekeeper .header.position-absolute.fixed-header,
+.home-three .header.fixed-header.titan-gatekeeper,
+.home-three .header.position-absolute.fixed-header.titan-gatekeeper,
+.titan-gatekeeper .header.fixed-header,
+.titan-gatekeeper .header.position-absolute.fixed-header,
+.home-three .header.fixed-header {
+  position: fixed !important;
+  margin-top: 0 !important;
+  margin-block-start: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .header-three__inner,
+html body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner,
+html body.home-three .header.fixed-header .header-three__inner,
+html body.home-three.crm-page .header.fixed-header .header-three__inner,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .header-three__inner,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .header-three__inner,
+body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner,
+body.home-three .header.fixed-header .header-three__inner,
+body.home-three.crm-page .header.fixed-header .header-three__inner,
+.home-three.crm-page .titan-gatekeeper .header.fixed-header .header-three__inner,
+.home-three .titan-gatekeeper .header.fixed-header .header-three__inner,
+.home-three .header.fixed-header .header-three__inner,
+.titan-gatekeeper .header.fixed-header .header-three__inner {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  box-shadow: none !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+html body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link,
+html body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+html body.home-three .header.fixed-header .nav-menu__link,
+html body.home-three .header.fixed-header .nav-menu__item > a,
+html body.home-three.crm-page .header.fixed-header .nav-menu__link,
+html body.home-three.crm-page .header.fixed-header .nav-menu__item > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link,
+body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+body.home-three .header.fixed-header .nav-menu__link,
+body.home-three .header.fixed-header .nav-menu__item > a,
+body.home-three.crm-page .header.fixed-header .nav-menu__link,
+body.home-three.crm-page .header.fixed-header .nav-menu__item > a,
+.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__link,
+.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link,
+.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+.home-three .header.fixed-header .nav-menu__link,
+.home-three .header.fixed-header .nav-menu__item > a,
+.titan-gatekeeper .header.fixed-header .nav-menu__link,
+.titan-gatekeeper .header.fixed-header .nav-menu__item > a {
+  color: #000000 !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+html body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+html body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+html body.home-three .header.fixed-header .nav-menu__link:hover,
+html body.home-three .header.fixed-header .nav-menu__item:hover > a,
+html body.home-three.crm-page .header.fixed-header .nav-menu__link:hover,
+html body.home-three.crm-page .header.fixed-header .nav-menu__item:hover > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+body.home-three .header.fixed-header .nav-menu__link:hover,
+body.home-three .header.fixed-header .nav-menu__item:hover > a,
+body.home-three.crm-page .header.fixed-header .nav-menu__link:hover,
+body.home-three.crm-page .header.fixed-header .nav-menu__item:hover > a,
+.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+.home-three.crm-page .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+.home-three .header.fixed-header .nav-menu__link:hover,
+.home-three .header.fixed-header .nav-menu__item:hover > a,
+.titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+.titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a {
+  color: #000000 !important;
+}
+
+/* DIREKTAN OVERRIDE za ClearGreen button - MORA biti na vrhu */
+.home-three .btn-main-two.button--stroke .button__label,
+html body.home-three .btn-main-two.button--stroke .button__label,
+body.home-three .btn-main-two.button--stroke .button__label,
+html body.home-three.crm-page .btn-main-two.button--stroke .button__label,
+body.home-three.crm-page .btn-main-two.button--stroke .button__label,
+.titan-gatekeeper .header .btn-main-two.button--stroke .button__label,
+html body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke .button__label,
+body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke .button__label,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke .button__label,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke .button__label {
+  color: #000000 !important;
+}
+
+/* DIREKTAN OVERRIDE za .bg-white-06 klasu - MORA biti na vrhu */
+.bg-white-06,
+html .bg-white-06,
+body .bg-white-06,
+html body .bg-white-06,
+html body.home-three .bg-white-06,
+html body.home-three.crm-page .bg-white-06,
+html body.home-three.crm-page.wp-singular .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .bg-white-06,
+body.home-three .bg-white-06,
+body.home-three.crm-page .bg-white-06,
+body.home-three.crm-page.wp-singular .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .bg-white-06,
+.titan-gatekeeper .bg-white-06,
+html .titan-gatekeeper .bg-white-06,
+body .titan-gatekeeper .bg-white-06,
+html body .titan-gatekeeper .bg-white-06,
+html body.home-three .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06,
+body.home-three .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06,
+.titan-gatekeeper .header .bg-white-06,
+html .titan-gatekeeper .header .bg-white-06,
+body .titan-gatekeeper .header .bg-white-06,
+html body .titan-gatekeeper .header .bg-white-06,
+html body.home-three .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06,
+body.home-three .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06,
+.titan-gatekeeper .header .header-three__inner.bg-white-06,
+html .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+
+/* DIREKTAN OVERRIDE za linkove u .bg-white-06 - maksimalna specifičnost */
+.bg-white-06 .nav-menu__link,
+.bg-white-06 .nav-menu__link.text-heading,
+.bg-white-06 nav .nav-menu__item > a,
+html .bg-white-06 .nav-menu__link,
+html .bg-white-06 .nav-menu__link.text-heading,
+html .bg-white-06 nav .nav-menu__item > a,
+body .bg-white-06 .nav-menu__link,
+body .bg-white-06 .nav-menu__link.text-heading,
+body .bg-white-06 nav .nav-menu__item > a,
+html body .bg-white-06 .nav-menu__link,
+html body .bg-white-06 .nav-menu__link.text-heading,
+html body .bg-white-06 nav .nav-menu__item > a,
+html body.home-three .bg-white-06 .nav-menu__link,
+html body.home-three .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular.page-template .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .bg-white-06 nav .nav-menu__item > a,
+body.home-three .bg-white-06 .nav-menu__link,
+body.home-three .bg-white-06 .nav-menu__link.text-heading,
+body.home-three .bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page .bg-white-06 .nav-menu__link,
+body.home-three.crm-page .bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page .bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page.wp-singular .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular .bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page.wp-singular .bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page.wp-singular.page-template .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page.wp-singular.page-template .bg-white-06 nav .nav-menu__item > a,
+.titan-gatekeeper .bg-white-06 .nav-menu__link,
+.titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+.titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+html .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+body .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+body .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html body .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+html body .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html body.home-three .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+body.home-three .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+.titan-gatekeeper .bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+.titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+
+/* =========================================================
+   FIX (Gatekeeper header/mobile-menu are OUTSIDE .titan-gatekeeper)
+   - hamburger button: white (not sticky), black (sticky)
+   - opened mobile menu: white background
+   ========================================================= */
+
+/* IMPORTANT: do not force-show hamburger on desktop (Bootstrap uses d-lg-none) */
+@media (max-width: 991.98px) {
+  /* Base: keep a decent hit-area on mobile */
+  html body.home-three.crm-page .header .toggle-mobileMenu,
+  body.home-three.crm-page .header .toggle-mobileMenu {
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 999px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: none !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  /* Before scroll (header NOT sticky): hamburger-white => samo BIJELE crte (bez pozadine) */
+  html body.home-three.crm-page .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white,
+  body.home-three.crm-page .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  html body.home-three.crm-page .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white i,
+  body.home-three.crm-page .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white i,
+  html body.home-three.crm-page .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white .ph,
+  body.home-three.crm-page .header:not(.fixed-header) .toggle-mobileMenu.hamburger-white .ph {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+  }
+
+  /* After scroll (header sticky): hamburger-black => samo CRNA ikona (bez pozadine) */
+  html body.home-three.crm-page .header.fixed-header .toggle-mobileMenu.hamburger-black,
+  body.home-three.crm-page .header.fixed-header .toggle-mobileMenu.hamburger-black {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #000000 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  html body.home-three.crm-page .header.fixed-header .toggle-mobileMenu.hamburger-black i,
+  body.home-three.crm-page .header.fixed-header .toggle-mobileMenu.hamburger-black i,
+  html body.home-three.crm-page .header.fixed-header .toggle-mobileMenu.hamburger-black .ph,
+  body.home-three.crm-page .header.fixed-header .toggle-mobileMenu.hamburger-black .ph {
+    color: #000000 !important;
+    fill: #000000 !important;
+    stroke: #000000 !important;
+  }
+}
+
+/* Mobile menu background when opened (menu is outside .titan-gatekeeper) */
+html body.home-three.crm-page .mobile-menu,
+body.home-three.crm-page .mobile-menu,
+html body.home-three.crm-page .mobile-menu.active,
+body.home-three.crm-page .mobile-menu.active,
+html body.home-three.crm-page .mobile-menu.bg-white,
+body.home-three.crm-page .mobile-menu.bg-white {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+}
+
+html body.home-three.crm-page .mobile-menu .nav-menu__link,
+body.home-three.crm-page .mobile-menu .nav-menu__link,
+html body.home-three.crm-page .mobile-menu .nav-menu__item a,
+body.home-three.crm-page .mobile-menu .nav-menu__item a {
+  color: #000000 !important;
+}
+
+html body.home-three.crm-page .mobile-menu .close-button,
+body.home-three.crm-page .mobile-menu .close-button,
+html body.home-three.crm-page .mobile-menu .close-button i,
+body.home-three.crm-page .mobile-menu .close-button i {
+  color: #000000 !important;
+}
+
+.titan-gatekeeper {
+  --tg-bg-1: #1a0b3a;
+  --tg-bg-2: #2a1360;
+  --tg-bg-3: #0b0a23;
+  --tg-text: #ffffff;
+  --tg-muted: rgba(255, 255, 255, 0.8);
+  --tg-muted-2: rgba(255, 255, 255, 0.65);
+  --tg-border: rgba(45, 45, 45, 0.2);
+  --tg-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
+  --tg-radius: 18px;
+  --tg-radius-lg: 22px;
+  --tg-max: 1120px;
+  /* Hero gradient colors */
+  --amethyst: #8c5cd2;
+  --lavender: #b968df;
+  --cerulean-blue: #2549a7;
+  --blue-marguerite: #6158c4;
+  --indigo: #3e51ba;
+  --blue-marguerite-2: #7c5dcd;
+  --indigo-2: #4b4ebd;
+  color: var(--tg-text);
+  font-family: Satoshi, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.titan-gatekeeper * {
+  box-sizing: border-box;
+}
+
+.titan-gatekeeper .content {
+  min-height: 100vh;
+  position: relative;
+  background: transparent;
+}
+
+/* Kontinuirani gradient za sve sekcije (osim hero i footer) */
+.titan-gatekeeper .content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, var(--tg-bg-1) 0%, var(--tg-bg-2) 50%, var(--tg-bg-3) 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Smanji logo u header-u - tačno 150px visina */
+.titan-gatekeeper .header .logo img,
+.titan-gatekeeper .header .logo .max-w-200-px,
+.titan-gatekeeper .header .max-w-200-px,
+.titan-gatekeeper .header .header-logo,
+.titan-gatekeeper .mobile-menu__logo img {
+  height: 150px !important;
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain;
+}
+
+/* Svi tekstovi u titan-gatekeeper su bijeli */
+.titan-gatekeeper,
+.titan-gatekeeper * {
+  color: #ffffff;
+}
+
+.titan-gatekeeper p,
+.titan-gatekeeper .block p,
+.titan-gatekeeper .text p,
+.titan-gatekeeper .mail-feature p,
+.titan-gatekeeper .brand-area p,
+.titan-gatekeeper .testimonial-grid p,
+.titan-gatekeeper .faq p {
+  color: #ffffff !important;
+}
+
+.titan-gatekeeper .heading h1,
+.titan-gatekeeper .heading h5,
+.titan-gatekeeper .mail-feature h3,
+.titan-gatekeeper .mail-feature h4,
+.titan-gatekeeper .brand-area h3,
+.titan-gatekeeper .testimonial-grid h3,
+.titan-gatekeeper .faq h3 {
+  color: #ffffff !important;
+}
+
+/* Header styling - uvek #0f6555 sa bijelim slovima */
+.titan-gatekeeper .header,
+html body.home-three.crm-page .titan-gatekeeper .header,
+html body.home-three .titan-gatekeeper .header,
+body.home-three.crm-page .titan-gatekeeper .header,
+body.home-three .titan-gatekeeper .header {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+  margin-top: 10px !important;
+}
+
+/* Override .tw-mt-8 klasu - ukloni margin - maksimalna specifičnost */
+.tw-mt-8,
+html .tw-mt-8,
+body .tw-mt-8,
+html body .tw-mt-8,
+html body.home-three .tw-mt-8,
+html body.home-three.crm-page .tw-mt-8,
+html body.home-three.crm-page.wp-singular .tw-mt-8,
+html body.home-three.crm-page.wp-singular.page-template .tw-mt-8,
+body.home-three .tw-mt-8,
+body.home-three.crm-page .tw-mt-8,
+body.home-three.crm-page.wp-singular .tw-mt-8,
+body.home-three.crm-page.wp-singular.page-template .tw-mt-8,
+.titan-gatekeeper .tw-mt-8,
+html .titan-gatekeeper .tw-mt-8,
+body .titan-gatekeeper .tw-mt-8,
+html body .titan-gatekeeper .tw-mt-8,
+html body.home-three .titan-gatekeeper .tw-mt-8,
+html body.home-three.crm-page .titan-gatekeeper .tw-mt-8,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .tw-mt-8,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .tw-mt-8,
+body.home-three .titan-gatekeeper .tw-mt-8,
+body.home-three.crm-page .titan-gatekeeper .tw-mt-8,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .tw-mt-8,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .tw-mt-8,
+.titan-gatekeeper .header.tw-mt-8,
+html .titan-gatekeeper .header.tw-mt-8,
+body .titan-gatekeeper .header.tw-mt-8,
+html body .titan-gatekeeper .header.tw-mt-8,
+html body.home-three .titan-gatekeeper .header.tw-mt-8,
+html body.home-three.crm-page .titan-gatekeeper .header.tw-mt-8,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header.tw-mt-8,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.tw-mt-8,
+body.home-three .titan-gatekeeper .header.tw-mt-8,
+body.home-three.crm-page .titan-gatekeeper .header.tw-mt-8,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .header.tw-mt-8,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.tw-mt-8 {
+  margin-block-start: 0 !important;
+  margin-top: 10px !important;
+}
+
+/* DIREKTAN OVERRIDE za .bg-white-06 klasu - MORA biti na vrhu da override-uje main.css */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+.titan-gatekeeper .bg-white-06,
+.titan-gatekeeper .header .bg-white-06,
+.titan-gatekeeper .header .header-three__inner.bg-white-06,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+/* Override .bg-white-06 klasu sa maksimalnom specifičnošću - FINALNI OVERRIDE */
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header-three__inner.bg-white-06,
+html body.home-three .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three .titan-gatekeeper .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header-three__inner.bg-white-06,
+body.home-three .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three .titan-gatekeeper .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header-three__inner,
+html body.home-three .titan-gatekeeper .header .header-three__inner,
+html body.home-three .titan-gatekeeper .header-three__inner,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner,
+body.home-three.crm-page .titan-gatekeeper .header-three__inner,
+body.home-three .titan-gatekeeper .header .header-three__inner,
+body.home-three .titan-gatekeeper .header-three__inner,
+.titan-gatekeeper .header .header-three__inner,
+.titan-gatekeeper .header-three__inner,
+body .titan-gatekeeper .header .header-three__inner,
+body .titan-gatekeeper .header-three__inner,
+html body .titan-gatekeeper .header .header-three__inner,
+html body .titan-gatekeeper .header-three__inner {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.05) inset !important;
+}
+.titan-gatekeeper .header-three__inner:hover,
+body .titan-gatekeeper .header-three__inner:hover {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Sticky/Fixed header styling */
+.titan-gatekeeper .header.fixed-header,
+.titan-gatekeeper .header.position-absolute.fixed-header,
+.titan-gatekeeper .header.tw-mt-8.fixed-header,
+.titan-gatekeeper .header.position-absolute.tw-mt-8.fixed-header,
+body .titan-gatekeeper .header.fixed-header,
+body .titan-gatekeeper .header.position-absolute.fixed-header,
+body .titan-gatekeeper .header.tw-mt-8.fixed-header,
+body .titan-gatekeeper .header.position-absolute.tw-mt-8.fixed-header,
+html body .titan-gatekeeper .header.fixed-header,
+html body .titan-gatekeeper .header.position-absolute.fixed-header,
+html body .titan-gatekeeper .header.tw-mt-8.fixed-header,
+html body .titan-gatekeeper .header.position-absolute.tw-mt-8.fixed-header {
+  background: transparent !important;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  margin-top: 0 !important;
+  margin-block-start: 0 !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: background 0.3s ease;
+}
+.titan-gatekeeper .header.fixed-header:hover {
+  background: transparent !important;
+}
+/* Override main.css .header.fixed-header background */
+body .titan-gatekeeper .header.fixed-header {
+  background-color: transparent !important;
+}
+body .titan-gatekeeper .header.fixed-header:hover {
+  background-color: transparent !important;
+}
+html body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .header-three__inner,
+body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .header-three__inner,
+.titan-gatekeeper .header.fixed-header .header-three__inner {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1) inset !important;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  max-width: var(--tg-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+.titan-gatekeeper .header.fixed-header:hover .header-three__inner {
+  background: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Container width za sticky header */
+.titan-gatekeeper .header.fixed-header .container {
+  max-width: var(--tg-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+.titan-gatekeeper .header.fixed-header .nav-menu__link,
+.titan-gatekeeper .header.fixed-header .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .nav-menu__item > a,
+.titan-gatekeeper .header.fixed-header .nav-menu__item > .nav-menu__link {
+  color: #000000 !important;
+}
+.titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+.titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+.titan-gatekeeper .header.fixed-header .nav-menu__item:hover > .nav-menu__link,
+.titan-gatekeeper .header.fixed-header .nav-menu__item:hover .nav-menu__link,
+.titan-gatekeeper .header.fixed-header:hover .nav-menu__item:hover > a,
+.titan-gatekeeper .header.fixed-header:hover .nav-menu__link:hover {
+  color: #000000 !important;
+}
+
+/* Override za sticky header - veća specifičnost */
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu .nav-menu__item:hover > a.nav-menu__link,
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item:hover > a,
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item:hover > .nav-menu__link,
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__link:hover {
+  color: #000000 !important;
+}
+
+/* DIREKTAN OVERRIDE za linkove u .bg-white-06 - MORA biti pre ostalih */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 nav .nav-menu__item > a {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+
+/* Ensure nav links are visible - uvek bijela - maksimalna specifičnost */
+html body.home-three .titan-gatekeeper .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .nav-menu__link,
+body.home-three .titan-gatekeeper .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .nav-menu__link,
+.titan-gatekeeper .nav-menu__link,
+body .titan-gatekeeper .nav-menu__link,
+html body .titan-gatekeeper .nav-menu__link,
+.titan-gatekeeper .header .nav-menu__link,
+body .titan-gatekeeper .header .nav-menu__link,
+.titan-gatekeeper .header-three__inner .nav-menu__link,
+body .titan-gatekeeper .header-three__inner .nav-menu__link {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+html body.home-three .titan-gatekeeper .nav-menu__link.text-white,
+html body.home-three.crm-page .titan-gatekeeper .nav-menu__link.text-white,
+html body.home-three .titan-gatekeeper .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .nav-menu__link.text-heading,
+.titan-gatekeeper .nav-menu__link.text-white,
+body .titan-gatekeeper .nav-menu__link.text-white,
+.titan-gatekeeper .nav-menu__link.text-heading,
+body .titan-gatekeeper .nav-menu__link.text-heading,
+.titan-gatekeeper .header .nav-menu__link.text-heading,
+body .titan-gatekeeper .header .nav-menu__link.text-heading {
+  color: #ffffff !important;
+}
+html body.home-three .titan-gatekeeper .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .nav-menu__link:hover,
+body.home-three .titan-gatekeeper .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .nav-menu__link:hover,
+.titan-gatekeeper .nav-menu__link:hover,
+body .titan-gatekeeper .nav-menu__link:hover,
+.titan-gatekeeper .header .nav-menu__link:hover,
+body .titan-gatekeeper .header .nav-menu__link:hover,
+.titan-gatekeeper .header-three__inner .nav-menu__link:hover,
+body .titan-gatekeeper .header-three__inner .nav-menu__link:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+html body.home-three .titan-gatekeeper .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .nav-menu__item:hover > a,
+body.home-three .titan-gatekeeper .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .nav-menu__item:hover > a,
+.titan-gatekeeper .nav-menu__item:hover > a,
+body .titan-gatekeeper .nav-menu__item:hover > a,
+.titan-gatekeeper .header .nav-menu__item:hover > a,
+body .titan-gatekeeper .header .nav-menu__item:hover > a,
+.titan-gatekeeper .header-three__inner .nav-menu__item:hover > a,
+body .titan-gatekeeper .header-three__inner .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .nav-menu__item:hover > a,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .nav-menu__item:hover > a,
+.titan-gatekeeper .header:not(.fixed-header) .nav-menu__item:hover > a,
+body .titan-gatekeeper .header:not(.fixed-header) .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+html body.home-three .titan-gatekeeper .header .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header .nav-menu__item > a,
+html body.home-three .titan-gatekeeper .header-three__inner .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header-three__inner .nav-menu__item > a,
+body.home-three .titan-gatekeeper .header .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .header .nav-menu__item > a,
+body.home-three .titan-gatekeeper .header-three__inner .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .header-three__inner .nav-menu__item > a,
+.titan-gatekeeper .header .nav-menu__item > a,
+body .titan-gatekeeper .header .nav-menu__item > a,
+.titan-gatekeeper .header-three__inner .nav-menu__item > a,
+body .titan-gatekeeper .header-three__inner .nav-menu__item > a {
+  color: #ffffff !important;
+}
+html body.home-three .titan-gatekeeper .header .nav-menu__item:hover > a.nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .nav-menu__item:hover > a.nav-menu__link,
+html body.home-three .titan-gatekeeper .header-three__inner .nav-menu__item:hover > a.nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header-three__inner .nav-menu__item:hover > a.nav-menu__link,
+body.home-three .titan-gatekeeper .header .nav-menu__item:hover > a.nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .nav-menu__item:hover > a.nav-menu__link,
+body.home-three .titan-gatekeeper .header-three__inner .nav-menu__item:hover > a.nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header-three__inner .nav-menu__item:hover > a.nav-menu__link,
+.titan-gatekeeper .header .nav-menu__item:hover > a.nav-menu__link,
+body .titan-gatekeeper .header .nav-menu__item:hover > a.nav-menu__link,
+.titan-gatekeeper .header-three__inner .nav-menu__item:hover > a.nav-menu__link,
+body .titan-gatekeeper .header-three__inner .nav-menu__item:hover > a.nav-menu__link {
+  color: #ffffff !important;
+}
+
+/* Override .home-three .text-heading iz main.css */
+html body.home-three .titan-gatekeeper .text-heading,
+html body.home-three.crm-page .titan-gatekeeper .text-heading,
+html body.home-three .titan-gatekeeper .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .text-heading,
+body.home-three.crm-page .titan-gatekeeper .text-heading,
+body.home-three .titan-gatekeeper .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .nav-menu__link.text-heading {
+  color: #ffffff !important;
+}
+
+/* Override .text-white klasa - crna boja - MAKSIMALNA SPECIFIČNOST */
+.titan-gatekeeper .text-white,
+.titan-gatekeeper button.text-white,
+.titan-gatekeeper .header .text-white,
+.titan-gatekeeper .header button.text-white,
+.titan-gatekeeper .toggle-mobileMenu.text-white,
+body.home-three .titan-gatekeeper .text-white,
+body.home-three .titan-gatekeeper button.text-white,
+body.home-three .titan-gatekeeper .header .text-white,
+body.home-three .titan-gatekeeper .header button.text-white,
+body.home-three .titan-gatekeeper .toggle-mobileMenu.text-white,
+html body.home-three .titan-gatekeeper .text-white,
+html body.home-three .titan-gatekeeper button.text-white,
+html body.home-three .titan-gatekeeper .header .text-white,
+html body.home-three .titan-gatekeeper .header button.text-white,
+html body.home-three .titan-gatekeeper .toggle-mobileMenu.text-white,
+body.home-three.crm-page .titan-gatekeeper .text-white,
+body.home-three.crm-page .titan-gatekeeper button.text-white,
+body.home-three.crm-page .titan-gatekeeper .header .text-white,
+body.home-three.crm-page .titan-gatekeeper .header button.text-white,
+body.home-three.crm-page .titan-gatekeeper .toggle-mobileMenu.text-white,
+html body.home-three.crm-page .titan-gatekeeper .text-white,
+html body.home-three.crm-page .titan-gatekeeper button.text-white,
+html body.home-three.crm-page .titan-gatekeeper .header .text-white,
+html body.home-three.crm-page .titan-gatekeeper .header button.text-white,
+html body.home-three.crm-page .titan-gatekeeper .toggle-mobileMenu.text-white {
+  --bs-text-opacity: 1;
+  color: #000000 !important;
+}
+
+/* Direktno za I element unutar toggle-mobileMenu - CRNA */
+.titan-gatekeeper .toggle-mobileMenu i,
+.titan-gatekeeper .toggle-mobileMenu.text-white i,
+.titan-gatekeeper .header .toggle-mobileMenu i,
+.titan-gatekeeper .header .toggle-mobileMenu.text-white i,
+body.home-three .titan-gatekeeper .toggle-mobileMenu i,
+body.home-three .titan-gatekeeper .toggle-mobileMenu.text-white i,
+body.home-three .titan-gatekeeper .header .toggle-mobileMenu i,
+body.home-three .titan-gatekeeper .header .toggle-mobileMenu.text-white i,
+html body.home-three .titan-gatekeeper .toggle-mobileMenu i,
+html body.home-three .titan-gatekeeper .toggle-mobileMenu.text-white i,
+html body.home-three .titan-gatekeeper .header .toggle-mobileMenu i,
+html body.home-three .titan-gatekeeper .header .toggle-mobileMenu.text-white i,
+body.home-three.crm-page .titan-gatekeeper .toggle-mobileMenu i,
+body.home-three.crm-page .titan-gatekeeper .toggle-mobileMenu.text-white i,
+body.home-three.crm-page .titan-gatekeeper .header .toggle-mobileMenu i,
+body.home-three.crm-page .titan-gatekeeper .header .toggle-mobileMenu.text-white i,
+html body.home-three.crm-page .titan-gatekeeper .toggle-mobileMenu i,
+html body.home-three.crm-page .titan-gatekeeper .toggle-mobileMenu.text-white i,
+html body.home-three.crm-page .titan-gatekeeper .header .toggle-mobileMenu i,
+html body.home-three.crm-page .titan-gatekeeper .header .toggle-mobileMenu.text-white i,
+.titan-gatekeeper .text-white i,
+.titan-gatekeeper button.text-white i,
+.titan-gatekeeper .header .text-white i,
+.titan-gatekeeper .header button.text-white i,
+body.home-three .titan-gatekeeper .text-white i,
+body.home-three .titan-gatekeeper button.text-white i,
+body.home-three .titan-gatekeeper .header .text-white i,
+body.home-three .titan-gatekeeper .header button.text-white i,
+html body.home-three .titan-gatekeeper .text-white i,
+html body.home-three .titan-gatekeeper button.text-white i,
+html body.home-three .titan-gatekeeper .header .text-white i,
+html body.home-three .titan-gatekeeper .header button.text-white i {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* Phosphor ikone specifično - override za header:not(.fixed-header) */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu .ph-list {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* Phosphor ikone specifično - općenito */
+.titan-gatekeeper .toggle-mobileMenu .ph,
+.titan-gatekeeper .toggle-mobileMenu .ph-list,
+.titan-gatekeeper .header .toggle-mobileMenu .ph,
+.titan-gatekeeper .header .toggle-mobileMenu .ph-list,
+body.home-three .titan-gatekeeper .toggle-mobileMenu .ph,
+body.home-three .titan-gatekeeper .toggle-mobileMenu .ph-list,
+body.home-three .titan-gatekeeper .header .toggle-mobileMenu .ph,
+body.home-three .titan-gatekeeper .header .toggle-mobileMenu .ph-list,
+html body.home-three .titan-gatekeeper .toggle-mobileMenu .ph,
+html body.home-three .titan-gatekeeper .toggle-mobileMenu .ph-list,
+html body.home-three .titan-gatekeeper .header .toggle-mobileMenu .ph,
+html body.home-three .titan-gatekeeper .header .toggle-mobileMenu .ph-list {
+  color: #000000 !important;
+  fill: #000000 !important;
+  stroke: #000000 !important;
+}
+
+/* Hamburger menu button - BIJELA POZADINA kada header NIJE sticky - MAKSIMALNA SPECIFIČNOST */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+.titan-gatekeeper .header:not(.fixed-header) .toggle-mobileMenu,
+.titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu,
+html body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu,
+body.home-three .titan-gatekeeper .header:not(.fixed-header) button.toggle-mobileMenu {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Override za sticky header hamburger - CRNA POZADINA - MAKSIMALNA SPECIFIČNOST */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu,
+.titan-gatekeeper .header.fixed-header button.toggle-mobileMenu,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu,
+html body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu,
+body.home-three .titan-gatekeeper .header.fixed-header button.toggle-mobileMenu,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  background: #000000 !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  --bs-text-opacity: 1;
+}
+
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu i,
+html body.home-three.crm-page .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white i {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu .ph,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu .ph-list,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white .ph,
+.titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white .ph-list,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu .ph,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu .ph-list,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white .ph,
+body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white .ph-list,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu .ph,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu .ph-list,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white .ph,
+html body.home-three .titan-gatekeeper .header.fixed-header .toggle-mobileMenu.text-white .ph-list {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* Button u header-u - bijelo dugme sa crnim tekstom - override .home-three .btn-main-two - MAKSIMALNA SPECIFIČNOST */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+html body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+html body .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+body .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+.titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+.home-three .titan-gatekeeper .header .btn-main-two.button--stroke.hover-style-two,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two.button--stroke,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke,
+html body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke,
+html body .titan-gatekeeper .header .btn-main-two.button--stroke,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two.button--stroke,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke,
+body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke,
+body .titan-gatekeeper .header .btn-main-two.button--stroke,
+.titan-gatekeeper .header .btn-main-two.button--stroke,
+.home-three .titan-gatekeeper .header .btn-main-two.button--stroke,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two,
+html body.home-three .titan-gatekeeper .header .btn-main-two,
+html body .titan-gatekeeper .header .btn-main-two,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two,
+body.home-three .titan-gatekeeper .header .btn-main-two,
+body .titan-gatekeeper .header .btn-main-two,
+.titan-gatekeeper .header .btn-main-two,
+.home-three .titan-gatekeeper .header .btn-main-two {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  background-image: none !important;
+  --main-two-600: #ffffff !important;
+  --spring-green: 0 0% 100% !important;
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Override button__flair za bijelu pozadinu - override hover-style-two i home-three */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+html body.home-three .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+html body .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+body.home-three .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+body .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+.titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+.home-three .titan-gatekeeper .header .btn-main-two.hover-style-two .button__flair::before,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two .button__flair::before,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two .button__flair::before,
+html body.home-three .titan-gatekeeper .header .btn-main-two .button__flair::before,
+html body .titan-gatekeeper .header .btn-main-two .button__flair::before,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two .button__flair::before,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two .button__flair::before,
+body.home-three .titan-gatekeeper .header .btn-main-two .button__flair::before,
+body .titan-gatekeeper .header .btn-main-two .button__flair::before,
+.titan-gatekeeper .header .btn-main-two .button__flair::before,
+.home-three .titan-gatekeeper .header .btn-main-two .button__flair::before {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  --main-600: #ffffff !important;
+}
+
+.titan-gatekeeper .header .btn-main-two .button__label,
+.home-three .titan-gatekeeper .header .btn-main-two .button__label,
+body.home-three .titan-gatekeeper .header .btn-main-two .button__label,
+html body.home-three .titan-gatekeeper .header .btn-main-two .button__label,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two .button__label,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .btn-main-two .button__label,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two .button__label,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two .button__label,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .header .btn-main-two .button__label,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two .button__label,
+.home-three .btn-main-two.button--stroke .button__label,
+html body.home-three .btn-main-two.button--stroke .button__label,
+body.home-three .btn-main-two.button--stroke .button__label {
+  color: #000000 !important;
+  font-weight: 700;
+}
+.titan-gatekeeper .header .btn-main-two .icon,
+.home-three .titan-gatekeeper .header .btn-main-two .icon,
+body.home-three .titan-gatekeeper .header .btn-main-two .icon,
+html body.home-three .titan-gatekeeper .header .btn-main-two .icon,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two .icon,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .btn-main-two .icon,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two .icon,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two .icon,
+body.home-three.crm-page.wp-singular .titan-gatekeeper .header .btn-main-two .icon,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .btn-main-two .icon,
+.home-three .btn-main-two.button--stroke .icon,
+html body.home-three .btn-main-two.button--stroke .icon,
+body.home-three .btn-main-two.button--stroke .icon,
+html body.home-three.crm-page .btn-main-two.button--stroke .icon,
+body.home-three.crm-page .btn-main-two.button--stroke .icon,
+.titan-gatekeeper .header .btn-main-two.button--stroke .icon,
+html body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke .icon,
+body.home-three .titan-gatekeeper .header .btn-main-two.button--stroke .icon,
+html body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke .icon,
+body.home-three.crm-page .titan-gatekeeper .header .btn-main-two.button--stroke .icon,
+.titan-gatekeeper .header .btn-main-two .icon i,
+.home-three .titan-gatekeeper .header .btn-main-two .icon i,
+body.home-three .titan-gatekeeper .header .btn-main-two .icon i,
+html body.home-three .titan-gatekeeper .header .btn-main-two .icon i {
+  color: #000000 !important;
+}
+.titan-gatekeeper .header .btn-main-two:hover {
+  background-color: #f5f5f5 !important;
+  color: #000000 !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+.titan-gatekeeper .header .btn-main-two:hover .button__label {
+  color: #000000 !important;
+}
+.titan-gatekeeper .header .btn-main-two:hover .icon,
+.home-three .titan-gatekeeper .header .btn-main-two:hover .icon,
+body.home-three .titan-gatekeeper .header .btn-main-two:hover .icon,
+html body.home-three .titan-gatekeeper .header .btn-main-two:hover .icon,
+.titan-gatekeeper .header .btn-main-two:hover .icon i,
+.home-three .titan-gatekeeper .header .btn-main-two:hover .icon i,
+body.home-three .titan-gatekeeper .header .btn-main-two:hover .icon i,
+html body.home-three .titan-gatekeeper .header .btn-main-two:hover .icon i {
+  color: #000000 !important;
+}
+
+.titan-gatekeeper a {
+  color: #4f83b3;
+  text-decoration: none;
+}
+.titan-gatekeeper a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Hero ---------- */
+.titan-gatekeeper .main {
+  padding: 140px 16px 56px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Background gradient samo za hero sekciju - koristi purple/indigo/blue boje */
+.titan-gatekeeper .main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(ellipse at 20% 30%, var(--lavender) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, var(--amethyst) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 70%, var(--blue-marguerite) 0%, transparent 50%),
+    radial-gradient(ellipse at 10% 80%, var(--indigo) 0%, transparent 50%),
+    linear-gradient(135deg, var(--cerulean-blue) 0%, var(--indigo-2) 25%, var(--blue-marguerite-2) 50%, var(--amethyst) 75%, var(--lavender) 100%);
+  z-index: -1;
+  opacity: 0.9;
+  left: 0;
+  right: 0;
+}
+
+.titan-gatekeeper .main .wrapper {
+  max-width: var(--tg-max);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+}
+
+.titan-gatekeeper .heading {
+  max-width: 960px;
+  text-align: center;
+  padding: 32px 40px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.titan-gatekeeper .heading h1 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: 70px;
+  line-height: 1.2;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.titan-gatekeeper .heading h1 .line-1,
+.titan-gatekeeper .heading h1 .line-2 {
+  display: block;
+}
+
+.titan-gatekeeper .heading h1 .line-2 {
+  margin-top: 0;
+}
+
+/* Mobilni stilovi za hero sekciju */
+@media (max-width: 768px) {
+  .titan-gatekeeper .heading {
+    max-width: 95%;
+    padding: 24px 20px;
+  }
+
+  .titan-gatekeeper .heading h1 {
+    font-size: 50px;
+    gap: 16px;
+  }
+
+  .titan-gatekeeper .heading h1 .line-2 {
+    margin-top: 16px;
+  }
+
+  .titan-gatekeeper .heading h5 {
+    font-size: clamp(20px, 4.5vw, 24px);
+    max-width: 95%;
+    line-height: 1.7;
+  }
+
+  .titan-gatekeeper .main .wrapper {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .titan-gatekeeper .heading {
+    max-width: 98%;
+    padding: 20px 16px;
+  }
+
+  .titan-gatekeeper .heading h1 {
+    font-size: 50px;
+    gap: 20px;
+  }
+
+  .titan-gatekeeper .heading h1 .line-2 {
+    margin-top: 20px;
+  }
+
+  .titan-gatekeeper .heading h5 {
+    font-size: clamp(18px, 5vw, 22px);
+    max-width: 98%;
+  }
+
+  .titan-gatekeeper .main .wrapper {
+    max-width: 98%;
+  }
+
+  .titan-gatekeeper .main {
+    padding: 100px 12px 40px;
+    min-height: 100vh;
+    min-height: 100svh;
+    box-sizing: border-box;
+  }
+}
+
+/* Desktop: sakrij hamburger i mobile menu (Gatekeeper header) */
+@media (min-width: 992px) {
+  html body.home-three.crm-page .toggle-mobileMenu,
+  body.home-three.crm-page .toggle-mobileMenu {
+    display: none !important;
+  }
+
+  html body.home-three.crm-page .mobile-menu,
+  body.home-three.crm-page .mobile-menu {
+    display: none !important;
+  }
+}
+
+/* Desktop safeguard: sakrij hamburger po defaultu, prikaži samo na <=991px */
+html body.home-three.crm-page .toggle-mobileMenu,
+body.home-three.crm-page .toggle-mobileMenu {
+  display: none !important;
+}
+
+@media (max-width: 991.98px) {
+  html body.home-three.crm-page .toggle-mobileMenu,
+  body.home-three.crm-page .toggle-mobileMenu {
+    display: inline-flex !important;
+  }
+}
+
+.titan-gatekeeper .hero-separator {
+  width: 60px;
+  height: 2px;
+  margin: 20px auto 24px;
+  background: #4f83b3;
+  border-radius: 2px;
+}
+
+.titan-gatekeeper .heading h5 {
+  margin: 0;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(16px, 1.8vw, 20px);
+  line-height: 1.8;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titan-gatekeeper .heading h5 br {
+  display: block;
+  content: "";
+  margin-top: 8px;
+}
+
+.titan-gatekeeper .hero-cta {
+  margin-top: 26px;
+}
+
+.titan-gatekeeper .titan-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 26px;
+  border-radius: 999px;
+  background: #4f83b3;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(45, 45, 45, 0.12);
+  font-size: 15px;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.titan-gatekeeper .titan-cta:hover {
+  background: #3f6e99;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(79, 131, 179, 0.3);
+}
+.titan-gatekeeper .titan-cta:focus-visible {
+  outline: 2px solid rgba(79, 131, 179, 0.5);
+  outline-offset: 3px;
+}
+
+.titan-gatekeeper .hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 28px auto 0;
+  max-width: 600px;
+}
+
+.titan-gatekeeper .hero-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: rgba(45, 45, 45, 0.08);
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.titan-gatekeeper .hero-badge:hover {
+  background: rgba(45, 45, 45, 0.12);
+  border-color: rgba(45, 45, 45, 0.3);
+  transform: translateY(-1px);
+}
+
+.titan-gatekeeper .hero-badge .badge-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(79, 131, 179, 0.2);
+  border-radius: 50%;
+  color: #4f83b3;
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.titan-gatekeeper .hero-badge .badge-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--tg-text);
+  white-space: nowrap;
+}
+
+.titan-gatekeeper .getTitan {
+  position: relative;
+  margin: 22px auto 0;
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(45, 45, 45, 0.08);
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  border-radius: 999px;
+  padding: 8px;
+  backdrop-filter: blur(14px);
+}
+
+.titan-gatekeeper .getTitan input[type="text"] {
+  flex: 1;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--tg-text);
+  padding: 10px 14px;
+  min-height: 44px;
+  font-size: 15px;
+}
+.titan-gatekeeper .getTitan input[type="text"]::placeholder {
+  color: rgba(45, 45, 45, 0.5);
+}
+
+.titan-gatekeeper .getTitan input[type="submit"] {
+  border: 0;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 12px 18px;
+  min-height: 44px;
+  min-width: 128px;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(90deg, #4f83b3 0%, #2d2d2d 55%, #4f83b3 100%);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+  transition: transform 160ms ease, filter 160ms ease;
+}
+.titan-gatekeeper .getTitan input[type="submit"]:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+}
+.titan-gatekeeper .getTitan input[type="submit"]:active {
+  transform: translateY(0);
+}
+
+.titan-gatekeeper .getTitan .error {
+  position: absolute;
+  left: 18px;
+  bottom: -22px;
+  font-size: 12px;
+  color: #ffb3b3;
+}
+
+.titan-gatekeeper .getTitan .loader {
+  position: absolute;
+  right: 140px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+.titan-gatekeeper .getTitan.is-loading .loader {
+  display: block;
+}
+.titan-gatekeeper .getTitan .loader_icon {
+  width: 45px;
+  height: 45px;
+}
+
+.titan-gatekeeper .form-concent {
+  margin-top: 18px;
+  font-size: 12.5px;
+  color: var(--tg-muted-2);
+}
+
+.titan-gatekeeper .hero-image {
+  width: 100%;
+  max-width: 900px;
+}
+
+.titan-gatekeeper .video-container {
+  position: relative;
+  border-radius: var(--tg-radius-lg);
+  overflow: hidden;
+  background: rgba(45, 45, 45, 0.05);
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  box-shadow: var(--tg-shadow);
+}
+
+.titan-gatekeeper .video-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.titan-gatekeeper .video-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.28));
+  pointer-events: none;
+}
+
+.titan-gatekeeper .icon.icon-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  background: rgba(45, 45, 45, 0.2);
+  border: 1px solid rgba(45, 45, 45, 0.3);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+  display: grid;
+  place-items: center;
+  transition: transform 180ms ease, background 180ms ease;
+  z-index: 2;
+}
+.titan-gatekeeper .icon.icon-play:hover {
+  transform: translate(-50%, -50%) scale(1.03);
+  background: rgba(45, 45, 45, 0.3);
+}
+.titan-gatekeeper .icon.icon-play:focus {
+  outline: 2px solid rgba(79, 131, 179, 0.8);
+  outline-offset: 4px;
+}
+.titan-gatekeeper .icon.icon-play::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 28px solid #2d2d2d;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  margin-left: 6px;
+}
+
+/* ---------- Modal ---------- */
+.titan-gatekeeper .titan-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  z-index: 100000;
+}
+.titan-gatekeeper .titan-modal[aria-hidden="false"] {
+  display: flex;
+}
+.titan-gatekeeper .titan-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+.titan-gatekeeper .titan-modal__dialog {
+  position: relative;
+  width: min(980px, 100%);
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  background: #e8e0d4;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+}
+.titan-gatekeeper .titan-modal__close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid rgba(45, 45, 45, 0.25);
+  background: rgba(45, 45, 45, 0.1);
+  color: #2d2d2d;
+  cursor: pointer;
+  z-index: 2;
+}
+.titan-gatekeeper .titan-modal__close:hover {
+  background: rgba(45, 45, 45, 0.2);
+}
+.titan-gatekeeper .titan-modal__body,
+.titan-gatekeeper .titan-modal__body iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ---------- Mail features ---------- */
+.titan-gatekeeper .mail-feature {
+  padding: 48px 16px 44px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+.titan-gatekeeper .brand-area {
+  padding: 40px 16px 32px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+
+.titan-gatekeeper .problem-area,
+.titan-gatekeeper .features-area,
+.titan-gatekeeper .process-area,
+.titan-gatekeeper .security-area,
+.titan-gatekeeper .cta-area {
+  padding: 56px 16px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+
+.titan-gatekeeper .brand-area .wrapper,
+.titan-gatekeeper .problem-area .wrapper,
+.titan-gatekeeper .features-area .wrapper,
+.titan-gatekeeper .process-area .wrapper,
+.titan-gatekeeper .security-area .wrapper,
+.titan-gatekeeper .cta-area .wrapper {
+  max-width: var(--tg-max);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titan-gatekeeper .brand-area h3,
+.titan-gatekeeper .problem-area h3,
+.titan-gatekeeper .features-area h3,
+.titan-gatekeeper .process-area h3,
+.titan-gatekeeper .security-area h3,
+.titan-gatekeeper .cta-area h3 {
+  margin: 0 0 12px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(20px, 2.4vw, 32px);
+  color: var(--tg-text);
+}
+
+.titan-gatekeeper .brand-area p,
+.titan-gatekeeper .problem-area p,
+.titan-gatekeeper .security-area p,
+.titan-gatekeeper .cta-area p {
+  margin: 0 auto 18px;
+  color: var(--tg-muted);
+  max-width: 760px;
+  line-height: 1.65;
+}
+
+.titan-gatekeeper .brand-swiper {
+  margin-top: 18px;
+  padding: 0;
+}
+
+.titan-gatekeeper .brand-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.titan-gatekeeper .brand-swiper .logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.titan-gatekeeper .brand-swiper .logo-box:hover {
+  transform: translateY(-4px);
+}
+
+.titan-gatekeeper .brand-swiper .logo-box img {
+  background: rgba(255, 255, 255, 0.85);
+  border: 0;
+  border-radius: 12px;
+  padding: 0;
+  height: 150px;
+  width: auto;
+  max-width: 280px;
+  object-fit: contain;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.titan-gatekeeper .brand-swiper .logo-box:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.titan-gatekeeper .problem-list {
+  list-style: none;
+  padding: 0;
+  margin: 18px auto 0;
+  max-width: 760px;
+  display: grid;
+  gap: 10px;
+  text-align: left;
+}
+
+.titan-gatekeeper .problem-list li {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(45, 45, 45, 0.12);
+  border-radius: 12px;
+  padding: 12px 14px;
+  color: var(--tg-text);
+}
+
+.titan-gatekeeper .features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+  text-align: left;
+}
+
+.titan-gatekeeper .feature-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(45, 45, 45, 0.12);
+  border-radius: 14px;
+  padding: 16px;
+  color: var(--tg-text);
+}
+
+.titan-gatekeeper .feature-card h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.titan-gatekeeper .feature-card p {
+  margin: 0;
+  color: var(--tg-muted);
+  line-height: 1.55;
+}
+
+.titan-gatekeeper .process-steps {
+  list-style: none;
+  padding: 0;
+  margin: 18px auto 0;
+  max-width: 680px;
+  display: grid;
+  gap: 10px;
+  text-align: left;
+  counter-reset: step;
+}
+
+.titan-gatekeeper .process-steps li {
+  counter-increment: step;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(45, 45, 45, 0.12);
+  border-radius: 12px;
+  padding: 12px 14px 12px 44px;
+  position: relative;
+  color: var(--tg-text);
+}
+
+.titan-gatekeeper .process-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #4f83b3;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.titan-gatekeeper .cta-area .titan-cta {
+  margin-top: 8px;
+}
+.titan-gatekeeper .mail-feature > .heading {
+  max-width: 820px;
+  margin: 0 auto 22px;
+  text-align: center;
+  padding: 40px 0;
+}
+.titan-gatekeeper .mail-feature > .heading h3 {
+  margin: 0 0 24px 0;
+  font-size: clamp(42px, 5vw, 70px);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+  color: #ffffff;
+}
+.titan-gatekeeper .mail-feature > .heading h5 {
+  margin: 24px 0 0;
+  font-weight: 450;
+  font-size: clamp(18px, 2vw, 24px);
+  color: var(--tg-muted);
+}
+
+.titan-gatekeeper .mail-feature .block {
+  padding: 30px 0;
+  border-bottom: 0;
+}
+.titan-gatekeeper .mail-feature .block .wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.titan-gatekeeper .mail-feature .block:nth-of-type(even) .wrapper {
+  flex-direction: row-reverse;
+}
+
+.titan-gatekeeper .mail-feature .text {
+  flex: 1;
+  min-width: 260px;
+}
+.titan-gatekeeper .mail-feature .text img {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 10px;
+  opacity: 0.95;
+}
+.titan-gatekeeper .mail-feature .text .step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: rgba(79, 131, 179, 0.12);
+  border: 2px solid rgba(79, 131, 179, 0.35);
+  border-radius: 999px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+  box-shadow: none;
+  flex-shrink: 0;
+}
+.titan-gatekeeper .mail-feature .text h4 {
+  margin: 0 0 16px;
+  font-weight: 800;
+  font-size: clamp(32px, 3.5vw, 42px);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.titan-gatekeeper .mail-feature .text ul {
+  margin: 0;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.titan-gatekeeper .mail-feature .text ul li {
+  position: relative;
+  margin-bottom: 12px;
+  color: var(--tg-muted);
+  line-height: 1.7;
+  font-size: clamp(16px, 1.8vw, 20px);
+  padding-left: 28px;
+}
+
+.titan-gatekeeper .mail-feature .text ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #bcd642;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.titan-gatekeeper .mail-feature .text p {
+  margin: 0;
+  color: var(--tg-muted);
+  line-height: 1.7;
+  font-size: clamp(16px, 1.8vw, 20px);
+}
+
+.titan-gatekeeper .mail-feature .image {
+  flex: 1.15;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 12px;
+  max-height: 700px;
+}
+.titan-gatekeeper .mail-feature .image a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: transparent;
+}
+.titan-gatekeeper .mail-feature .image a:hover {
+  transform: scale(1.02);
+  background: transparent;
+}
+.titan-gatekeeper .mail-feature .image img {
+  width: 100%;
+  height: 100%;
+  max-height: 650px;
+  object-fit: contain;
+  border-radius: 14px;
+  border: 0;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.15);
+  display: block;
+  transition: box-shadow 0.3s ease;
+}
+.titan-gatekeeper .mail-feature .image a:hover img {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.titan-gatekeeper .mail-feature .cta-block {
+  max-width: var(--tg-max);
+  margin: 20px auto 0;
+  text-align: center;
+}
+.titan-gatekeeper .mail-feature .cta-block a {
+  display: inline-block;
+  color: #cfe0ff;
+  font-weight: 650;
+}
+
+/* ---------- Calendar / product grid ---------- */
+.titan-gatekeeper .cal-feature {
+  padding: 50px 16px 44px;
+}
+.titan-gatekeeper .cal-feature .wrapper {
+  max-width: var(--tg-max);
+  margin: 0 auto;
+  display: grid;
+  gap: 18px;
+}
+
+.titan-gatekeeper .cal-feature .block {
+  display: grid;
+  gap: 18px;
+}
+
+.titan-gatekeeper .cal-feature .block1 {
+  grid-template-columns: 1fr 1.25fr;
+  align-items: center;
+}
+.titan-gatekeeper .cal-feature .block1 .left h2 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(22px, 2.6vw, 40px);
+  line-height: 1.1;
+  color: var(--tg-text);
+}
+.titan-gatekeeper .cal-feature .block1 .right {
+  background: linear-gradient(135deg, rgba(79, 131, 179, 0.12), rgba(45, 45, 45, 0.08));
+  border: 1px solid var(--tg-border);
+  border-radius: var(--tg-radius);
+  padding: 18px;
+  box-shadow: var(--tg-shadow);
+}
+.titan-gatekeeper .cal-feature .block1 .right img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(45, 45, 45, 0.15);
+}
+.titan-gatekeeper .cal-feature .block1 .right .text {
+  margin-top: 12px;
+}
+.titan-gatekeeper .cal-feature .block1 .right h6 {
+  margin: 0 0 6px;
+  font-weight: 750;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(45, 45, 45, 0.9);
+}
+.titan-gatekeeper .cal-feature .block1 .right p {
+  margin: 0;
+  color: var(--tg-muted);
+  line-height: 1.55;
+}
+
+.titan-gatekeeper .cal-feature .block3 {
+  grid-template-columns: 1fr 1fr;
+}
+.titan-gatekeeper .cal-feature .green-box,
+.titan-gatekeeper .cal-feature .maroon-box,
+.titan-gatekeeper .cal-feature .blue-box,
+.titan-gatekeeper .cal-feature .yellow-box,
+.titan-gatekeeper .cal-feature .light_green-box {
+  border-radius: var(--tg-radius);
+  border: 1px solid var(--tg-border);
+  padding: 16px;
+  box-shadow: var(--tg-shadow);
+  overflow: hidden;
+}
+.titan-gatekeeper .cal-feature .green-box {
+  background: linear-gradient(135deg, rgba(43, 214, 151, 0.18), rgba(102, 95, 255, 0.14));
+}
+.titan-gatekeeper .cal-feature .maroon-box {
+  background: linear-gradient(135deg, rgba(255, 116, 160, 0.16), rgba(123, 68, 255, 0.14));
+}
+.titan-gatekeeper .cal-feature .blue-box {
+  background: linear-gradient(135deg, rgba(61, 187, 255, 0.18), rgba(132, 103, 255, 0.14));
+}
+.titan-gatekeeper .cal-feature .yellow-box {
+  background: linear-gradient(135deg, rgba(255, 199, 66, 0.2), rgba(255, 116, 160, 0.12));
+}
+.titan-gatekeeper .cal-feature .light_green-box {
+  background: linear-gradient(135deg, rgba(163, 255, 210, 0.18), rgba(61, 187, 255, 0.12));
+}
+
+.titan-gatekeeper .cal-feature .block3 img,
+.titan-gatekeeper .cal-feature .block4 img,
+.titan-gatekeeper .cal-feature .block5 img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(45, 45, 45, 0.15);
+}
+.titan-gatekeeper .cal-feature .block3 .text,
+.titan-gatekeeper .cal-feature .block4 .text,
+.titan-gatekeeper .cal-feature .block5 .text {
+  margin-top: 12px;
+}
+.titan-gatekeeper .cal-feature .block3 h6,
+.titan-gatekeeper .cal-feature .block4 h6,
+.titan-gatekeeper .cal-feature .block5 h6 {
+  margin: 0 0 6px;
+  font-weight: 750;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(45, 45, 45, 0.9);
+}
+.titan-gatekeeper .cal-feature .block3 p,
+.titan-gatekeeper .cal-feature .block4 p,
+.titan-gatekeeper .cal-feature .block5 p {
+  margin: 0;
+  color: var(--tg-muted);
+  line-height: 1.55;
+}
+
+.titan-gatekeeper .cal-feature .block4 {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.titan-gatekeeper .cal-feature .block4 .right.text-block h2 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(22px, 2.6vw, 40px);
+  line-height: 1.1;
+}
+
+.titan-gatekeeper .cal-feature .block5 {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* ---------- Testimonials ---------- */
+.titan-gatekeeper .testimonial-grid {
+  padding: 54px 16px 56px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+.titan-gatekeeper .testimonial-grid h3 {
+  text-align: center;
+  margin: 0 auto 22px;
+  max-width: 820px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(22px, 2.4vw, 34px);
+}
+.titan-gatekeeper .testimonial-grid .wrapper {
+  max-width: var(--tg-max);
+  margin: 0 auto;
+}
+.titan-gatekeeper .testimonial-slider-wrapper {
+  position: relative;
+  padding: 20px 60px 60px;
+}
+.titan-gatekeeper .testimonial-swiper {
+  overflow: visible;
+}
+.titan-gatekeeper .testimonial-swiper .swiper-slide {
+  height: auto;
+  display: flex;
+}
+.titan-gatekeeper .testimonial-grid .block {
+  border-radius: 18px;
+  padding: 26px 24px 22px;
+  border: 1px solid rgba(45, 45, 45, 0.12);
+  border-top: 4px solid #4f83b3;
+  background: #ffffff;
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+.titan-gatekeeper .testimonial-grid .block:nth-child(2n) {
+  border-top-color: #b6e3c0;
+}
+.titan-gatekeeper .testimonial-grid .block:nth-child(3n) {
+  border-top-color: #ffd2d2;
+}
+.titan-gatekeeper .testimonial-grid .block::before {
+  content: "“";
+  font-size: 28px;
+  line-height: 1;
+  color: rgba(79, 131, 179, 0.5);
+  font-weight: 700;
+}
+.titan-gatekeeper .testimonial-grid .block:hover {
+  transform: translateY(-4px);
+  border-color: rgba(79, 131, 179, 0.35);
+  box-shadow: none !important;
+}
+.titan-gatekeeper .testimonial-grid .block > p {
+  margin: 0;
+  color: #000000 !important;
+  line-height: 1.75;
+  font-size: 15.5px;
+}
+.titan-gatekeeper .testimonial-grid .author-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  border: 3px solid rgba(79, 131, 179, 0.4);
+  margin-right: 12px;
+  background: #ffffff;
+  padding: 4px;
+  object-fit: contain;
+  object-position: center;
+  box-shadow: none !important;
+}
+.titan-gatekeeper .testimonial-grid .rating-star {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) saturate(100%) invert(0%);
+}
+.titan-gatekeeper .testimonial-grid .rating-number {
+  margin-left: 8px;
+  font-weight: 800;
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+.titan-gatekeeper .testimonial-grid .block span {
+  color: #000000 !important;
+}
+
+.titan-gatekeeper .testimonial-grid .block .d-flex span {
+  color: #000000 !important;
+}
+
+/* Swiper Navigation & Pagination */
+.titan-gatekeeper .testimonial-next,
+.titan-gatekeeper .testimonial-prev {
+  color: rgba(45, 45, 45, 0.8);
+  width: 44px;
+  height: 44px;
+  background: rgba(45, 45, 45, 0.1);
+  border-radius: 50%;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  transition: all 0.3s ease;
+  display: none;
+}
+.titan-gatekeeper .testimonial-next:hover,
+.titan-gatekeeper .testimonial-prev:hover {
+  background: rgba(45, 45, 45, 0.2);
+  transform: scale(1.1);
+}
+.titan-gatekeeper .testimonial-next::after,
+.titan-gatekeeper .testimonial-prev::after {
+  font-size: 18px;
+  font-weight: 700;
+}
+.titan-gatekeeper .testimonial-pagination {
+  bottom: 0 !important;
+}
+.titan-gatekeeper .testimonial-pagination .swiper-pagination-bullet {
+  background: #ffffff !important;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+.titan-gatekeeper .testimonial-pagination .swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  width: 24px;
+  border-radius: 5px;
+}
+
+/* ---------- Partners CTA ---------- */
+.titan-gatekeeper .learn_more {
+  padding: 54px 16px 54px;
+  background: linear-gradient(180deg, rgba(132, 103, 255, 0.18), rgba(132, 103, 255, 0));
+}
+.titan-gatekeeper .learn_more .wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: var(--tg-radius-lg);
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  background: linear-gradient(135deg, rgba(79, 131, 179, 0.12), rgba(45, 45, 45, 0.08));
+  padding: 26px 18px;
+  box-shadow: var(--tg-shadow);
+}
+.titan-gatekeeper .learn_more h2 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(20px, 2.2vw, 30px);
+}
+.titan-gatekeeper .learn_more h5 {
+  margin: 12px 0 0;
+  color: var(--tg-muted);
+  font-weight: 450;
+}
+.titan-gatekeeper .learn_more .cta-container {
+  margin-top: 16px;
+}
+.titan-gatekeeper .learn_more .cta-container a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  background: rgba(45, 45, 45, 0.1);
+  color: #2d2d2d;
+  font-weight: 750;
+  text-decoration: none;
+}
+.titan-gatekeeper .learn_more .cta-container a:hover {
+  background: rgba(45, 45, 45, 0.15);
+}
+
+/* ---------- FAQ ---------- */
+.titan-gatekeeper .faq {
+  padding: 56px 16px 80px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+.titan-gatekeeper .faq .wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.titan-gatekeeper .faq h3 {
+  margin: 0 0 22px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(22px, 2.3vw, 32px);
+  text-align: center;
+}
+.titan-gatekeeper .faq-accordion {
+  display: grid;
+  gap: 12px;
+}
+.titan-gatekeeper .faq-card {
+  border-radius: 14px;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  background: rgba(45, 45, 45, 0.05);
+  overflow: hidden;
+}
+.titan-gatekeeper .faq-acordion-btn {
+  width: 100%;
+  text-align: left;
+  border: 1px solid rgba(45, 45, 45, 0.15);
+  background: rgba(45, 45, 45, 0.05);
+  border-radius: 12px;
+  padding: 16px 18px;
+  color: #ffffff !important;
+  font-weight: 750;
+  font-size: clamp(18px, 2vw, 22px) !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.titan-gatekeeper .faq-acordion-btn:hover {
+  background: rgba(45, 45, 45, 0.1);
+  border-color: rgba(45, 45, 45, 0.25);
+  transform: translateY(-1px);
+}
+.titan-gatekeeper .faq-acordion-btn.active {
+  background: rgba(79, 131, 179, 0.15);
+  border-color: rgba(79, 131, 179, 0.3);
+}
+.titan-gatekeeper .faq-acordion-btn::after {
+  content: "+";
+  font-size: 24px;
+  line-height: 1;
+  opacity: 0.9;
+  font-weight: 300;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: rotate(0deg);
+}
+.titan-gatekeeper .faq-acordion-btn[aria-expanded="true"]::after {
+  content: "–";
+  transform: rotate(180deg);
+}
+.titan-gatekeeper .faq .collapse {
+  padding: 0 16px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out;
+  display: block;
+}
+.titan-gatekeeper .faq .collapse[hidden] {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.titan-gatekeeper .faq .collapse:not([hidden]) {
+  max-height: 500px !important;
+  opacity: 1 !important;
+  padding-top: 12px !important;
+  padding-bottom: 16px !important;
+}
+.titan-gatekeeper .faq .card.card-body {
+  color: #ffffff !important;
+  line-height: 1.7;
+  font-size: clamp(17px, 1.8vw, 20px) !important;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  animation: fadeInUp 0.4s ease-out;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 992px) {
+  .titan-gatekeeper .mail-feature .block .wrapper {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .titan-gatekeeper .mail-feature .block:nth-of-type(even) .wrapper {
+    flex-direction: column;
+  }
+  .titan-gatekeeper .mail-feature .text .step-number {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .titan-gatekeeper .cal-feature .block1 {
+    grid-template-columns: 1fr;
+  }
+  .titan-gatekeeper .cal-feature .block3,
+  .titan-gatekeeper .cal-feature .block4,
+  .titan-gatekeeper .cal-feature .block5 {
+    grid-template-columns: 1fr;
+  }
+  .titan-gatekeeper .testimonial-grid .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .titan-gatekeeper .testimonial-slider-wrapper {
+    padding: 20px 50px 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .titan-gatekeeper .testimonial-slider-wrapper {
+    padding: 20px 40px 60px;
+  }
+  .titan-gatekeeper .testimonial-next,
+  .titan-gatekeeper .testimonial-prev {
+    width: 36px;
+    height: 36px;
+  }
+  .titan-gatekeeper .testimonial-next::after,
+  .titan-gatekeeper .testimonial-prev::after {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 520px) {
+  .titan-gatekeeper .getTitan {
+    flex-direction: column;
+    border-radius: 18px;
+    padding: 10px;
+  }
+  .titan-gatekeeper .getTitan input[type="submit"] {
+    width: 100%;
+  }
+  .titan-gatekeeper .getTitan .loader {
+    right: 16px;
+    top: 18px;
+    transform: none;
+  }
+  .titan-gatekeeper .hero-badges {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .titan-gatekeeper .hero-badge {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+  .titan-gatekeeper .testimonial-slider-wrapper {
+    padding: 20px 0 60px;
+  }
+  .titan-gatekeeper .testimonial-next,
+  .titan-gatekeeper .testimonial-prev {
+    display: none;
+  }
+}
+
+/* Force all text to be white */
+.titan-gatekeeper h1,
+.titan-gatekeeper h2,
+.titan-gatekeeper h3,
+.titan-gatekeeper h4,
+.titan-gatekeeper h5,
+.titan-gatekeeper h6,
+.titan-gatekeeper .cal-feature h2,
+.titan-gatekeeper .cal-feature h2 span {
+  color: #ffffff !important;
+}
+
+/* Accent colors for keywords */
+.titan-gatekeeper .text-accent {
+  background: linear-gradient(135deg, #4f83b3 0%, #2d2d2d 50%, #4f83b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+  font-weight: 800;
+}
+
+.titan-gatekeeper .text-accent-light {
+  color: #bcd642 !important;
+  font-weight: 700;
+}
+
+/* Hide video section */
+.titan-gatekeeper .hero-image {
+  display: none !important;
+}
+
+/* ---------- Process Details Section (Cik-Cak Layout) ---------- */
+.titan-gatekeeper .gatekeeper-section {
+  padding: 80px 16px;
+}
+
+.titan-gatekeeper .process-steps-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.titan-gatekeeper .process-nav-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 24px;
+  background: rgba(45, 45, 45, 0.08);
+  border: 1px solid var(--tg-border);
+  border-radius: 12px;
+  color: var(--tg-text);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.titan-gatekeeper .process-nav-btn:hover {
+  background: rgba(45, 45, 45, 0.12);
+  border-color: rgba(45, 45, 45, 0.3);
+  transform: translateY(-2px);
+}
+
+.titan-gatekeeper .process-nav-btn.active {
+  background: rgba(79, 131, 179, 0.2);
+  border-color: #4f83b3;
+  box-shadow: 0 4px 12px rgba(79, 131, 179, 0.2);
+}
+
+.titan-gatekeeper .process-nav-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: rgba(79, 131, 179, 0.15);
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4f83b3;
+}
+
+.titan-gatekeeper .process-nav-btn.active .process-nav-number {
+  background: #4f83b3;
+  color: #ffffff;
+}
+
+.titan-gatekeeper .process-nav-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.titan-gatekeeper .process-detail-item {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.titan-gatekeeper .process-detail-content {
+  padding: 32px 0;
+}
+
+.titan-gatekeeper .process-detail-image {
+  margin-bottom: 24px;
+}
+
+.titan-gatekeeper .process-detail-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--tg-radius);
+  box-shadow: var(--tg-shadow);
+}
+
+.titan-gatekeeper .process-detail-text {
+  padding: 24px 0;
+}
+
+.titan-gatekeeper .process-detail-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #4f83b3 0%, #2d2d2d 100%);
+  border-radius: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(79, 131, 179, 0.3);
+}
+
+.titan-gatekeeper .process-detail-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--tg-text);
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.titan-gatekeeper .process-detail-description {
+  color: var(--tg-muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.titan-gatekeeper .process-detail-description p {
+  margin-bottom: 16px;
+}
+
+.titan-gatekeeper .process-detail-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Cik-cak layout: odd steps (1,3,5) = image left, text right */
+.titan-gatekeeper .process-detail-item:nth-of-type(odd) .process-detail-content .row {
+  flex-direction: row;
+}
+
+/* Cik-cak layout: even steps (2,4) = text left, image right (using Bootstrap order classes) */
+.titan-gatekeeper .process-detail-item:nth-of-type(even) .process-detail-content .row {
+  flex-direction: row;
+}
+
+@media (max-width: 991px) {
+  .titan-gatekeeper .process-steps-nav {
+    gap: 8px;
+  }
+  
+  .titan-gatekeeper .process-nav-btn {
+    min-width: 80px;
+    padding: 12px 16px;
+  }
+  
+  .titan-gatekeeper .process-nav-number {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+  
+  .titan-gatekeeper .process-detail-title {
+    font-size: 24px;
+  }
+  
+  .titan-gatekeeper .process-detail-number {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .titan-gatekeeper .process-steps-nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .titan-gatekeeper .process-nav-btn {
+    flex-direction: row;
+    justify-content: flex-start;
+    min-width: auto;
+    width: 100%;
+  }
+  
+  .titan-gatekeeper .process-nav-label {
+    font-size: 14px;
+  }
+}
+
+/* ---------- Footer ---------- */
+.titan-gatekeeper-footer {
+  padding: 80px 20px 50px;
+  margin-top: 0;
+  text-align: center;
+  position: relative;
+  background: transparent !important;
+  background-color: transparent !important;
+  z-index: 2;
+}
+
+.titan-gatekeeper-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: radial-gradient(ellipse at 20% 30%, var(--lavender) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, var(--amethyst) 0%, transparent 50%), radial-gradient(ellipse at 50% 70%, var(--blue-marguerite) 0%, transparent 50%), radial-gradient(ellipse at 10% 80%, var(--indigo) 0%, transparent 50%), linear-gradient(135deg, var(--cerulean-blue) 0%, var(--indigo-2) 25%, var(--blue-marguerite-2) 50%, var(--amethyst) 75%, var(--lavender) 100%) !important;
+  background-color: transparent !important;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.titan-gatekeeper-footer .footer-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  z-index: 1;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.titan-gatekeeper-footer .footer-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.titan-gatekeeper-footer .footer-logo img {
+  max-width: 200px;
+  height: auto;
+  filter: drop-shadow(0 4px 12px rgba(45, 45, 45, 0.12));
+}
+
+.titan-gatekeeper-footer .footer-title {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(32px, 4vw, 42px);
+  color: #2d2d2d;
+  line-height: 1.2;
+  text-shadow: none !important;
+}
+
+.titan-gatekeeper-footer * {
+  text-shadow: none !important;
+}
+
+.titan-gatekeeper-footer .footer-description {
+  margin: 0;
+  max-width: 720px;
+  color: rgba(45, 45, 45, 0.75);
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 450;
+}
+
+.titan-gatekeeper-footer .footer-contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 100%;
+  max-width: 850px;
+  align-items: stretch;
+}
+
+.titan-gatekeeper-footer .contact-box {
+  padding: 32px 28px;
+  background: #ffffff;
+  border: 1px solid rgba(45, 45, 45, 0.1);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: none !important;
+}
+
+.titan-gatekeeper-footer .contact-box:hover {
+  border-color: #4f83b3;
+  box-shadow: 0 8px 24px rgba(79, 131, 179, 0.2);
+  transform: translateY(-4px);
+}
+
+.titan-gatekeeper-footer .contact-box:nth-child(1):hover {
+  background: linear-gradient(135deg, rgba(79, 131, 179, 0.05) 0%, #ffffff 100%);
+}
+
+.titan-gatekeeper-footer .contact-box:nth-child(2):hover {
+  background: linear-gradient(135deg, rgba(182, 227, 192, 0.08) 0%, #ffffff 100%);
+}
+
+.titan-gatekeeper-footer .contact-box h3 {
+  margin: 0 0 8px;
+  font-weight: 750;
+  font-size: 24px;
+  color: #2d2d2d;
+  letter-spacing: -0.01em;
+}
+
+.titan-gatekeeper-footer .contact-title {
+  margin: 0 0 24px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4f83b3;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.titan-gatekeeper-footer .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.titan-gatekeeper-footer .contact-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #2d2d2d;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 18px;
+  background: rgba(45, 45, 45, 0.03);
+  border: 1px solid rgba(45, 45, 45, 0.08);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.titan-gatekeeper-footer .contact-link:hover {
+  background: rgba(79, 131, 179, 0.12);
+  border-color: rgba(79, 131, 179, 0.3);
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.titan-gatekeeper-footer .contact-link i {
+  font-size: 18px;
+  color: #4f83b3;
+  flex-shrink: 0;
+  width: 20px;
+  text-align: center;
+}
+
+.titan-gatekeeper-footer .footer-bottom {
+  margin-top: 10px;
+  padding-top: 40px;
+  border-top: 2px solid rgba(45, 45, 45, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.titan-gatekeeper-footer .footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #2d2d2d;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 28px;
+  background: rgba(79, 131, 179, 0.12);
+  border: 2px solid rgba(79, 131, 179, 0.25);
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+.titan-gatekeeper-footer .footer-link:hover {
+  background: rgba(79, 131, 179, 0.2);
+  border-color: rgba(79, 131, 179, 0.4);
+  color: #2d2d2d;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(79, 131, 179, 0.25);
+}
+
+.titan-gatekeeper-footer .footer-link i {
+  font-size: 18px;
+  color: #4f83b3;
+}
+
+.titan-gatekeeper-footer .footer-copy {
+  margin: 0;
+  color: rgba(45, 45, 45, 0.6);
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.titan-gatekeeper-footer .footer-logos {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.titan-gatekeeper-footer .footer-logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.titan-gatekeeper-footer .footer-logo-text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 8px 0;
+  max-width: 280px;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.titan-gatekeeper-footer .footer-logo-link {
+  display: block;
+}
+
+.titan-gatekeeper-footer .footer-logo-img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .titan-gatekeeper-footer {
+    padding: 60px 16px 40px;
+  }
+
+  .titan-gatekeeper-footer .footer-wrapper {
+    gap: 40px;
+  }
+
+  .titan-gatekeeper-footer .footer-contacts {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .titan-gatekeeper-footer .contact-box {
+    padding: 28px 24px;
+    text-align: center;
+  }
+
+  .titan-gatekeeper-footer .contact-link {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .titan-gatekeeper-footer {
+    padding: 50px 16px 32px;
+  }
+
+  .titan-gatekeeper-footer .footer-logo img {
+    max-width: 160px;
+  }
+
+  .titan-gatekeeper-footer .contact-box {
+    padding: 24px 20px;
+  }
+}
+
+/* Override za sticky header hover - maksimalna specifičnost sa !important */
+/* Override .nav-menu__item:hover > a samo za sticky header - override main.css */
+body .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+body .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a.nav-menu__link,
+body .titan-gatekeeper .header.fixed-header .header-three__inner nav .nav-menu .nav-menu__item:hover > a.nav-menu__link.text-heading,
+body .titan-gatekeeper .header.fixed-header .header-three__inner nav .nav-menu .nav-menu__item:hover > a,
+body .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu .nav-menu__item:hover > a.nav-menu__link,
+body .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu .nav-menu__item:hover > a,
+body .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item:hover > a.nav-menu__link,
+body .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item:hover > a,
+body .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__link:hover,
+body .titan-gatekeeper .header.fixed-header .header-three__inner a.nav-menu__link:hover,
+body .titan-gatekeeper .header.fixed-header .nav-menu__link:hover,
+html body .titan-gatekeeper .header.fixed-header .nav-menu__item:hover > a,
+html body .titan-gatekeeper .header.fixed-header .nav-menu__item > a {
+  color: #000000 !important;
+}
+
+/* Override .home-three .text-heading samo za sticky header - override main.css */
+/* Direktno override .home-three .text-heading sa većom specifičnošću */
+.home-three .header.fixed-header .text-heading,
+.home-three .header.fixed-header .nav-menu__link.text-heading,
+.home-three .header.fixed-header .nav-menu__item .nav-menu__link.text-heading,
+.home-three .header.fixed-header a.text-heading,
+body.home-three .header.fixed-header .text-heading,
+body.home-three .header.fixed-header .nav-menu__link.text-heading,
+body.home-three .header.fixed-header .nav-menu__item .nav-menu__link.text-heading,
+body.home-three .header.fixed-header a.text-heading,
+html body.home-three .header.fixed-header .text-heading,
+html body.home-three .header.fixed-header .nav-menu__link.text-heading,
+html body.home-three .header.fixed-header .nav-menu__item .nav-menu__link.text-heading,
+html body.home-three .header.fixed-header a.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner nav .nav-menu .nav-menu__item .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu .nav-menu__item .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item .nav-menu__link.text-heading,
+body.home-three .titan-gatekeeper .header.fixed-header a.nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner nav .nav-menu .nav-menu__item .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu .nav-menu__item .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header .nav-menu__item .nav-menu__link.text-heading,
+html body.home-three .titan-gatekeeper .header.fixed-header a.nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .header-three__inner nav .nav-menu .nav-menu__item .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu .nav-menu__item .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__item .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .header-three__inner .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header .nav-menu__item .nav-menu__link.text-heading,
+.titan-gatekeeper .header.fixed-header a.nav-menu__link.text-heading {
+  color: #000000 !important;
+}
+
+/* Mobile Menu Animacije - override main.css .mobile-menu.active */
+/* Override .mobile-menu.active iz main.css koji nema transition */
+.titan-gatekeeper .mobile-menu,
+body .titan-gatekeeper .mobile-menu,
+.titan-gatekeeper .mobile-menu.tw--translate-x-full,
+html body .titan-gatekeeper .mobile-menu,
+body.home-three .titan-gatekeeper .mobile-menu,
+body.home-three .mobile-menu {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  -webkit-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  will-change: transform;
+}
+
+/* Override .mobile-menu.active iz main.css - dodaj transition */
+.titan-gatekeeper .mobile-menu.active,
+body .titan-gatekeeper .mobile-menu.active,
+html body .titan-gatekeeper .mobile-menu.active,
+body.home-three .titan-gatekeeper .mobile-menu.active,
+body.home-three .mobile-menu.active {
+  transform: translateX(0) !important;
+  -webkit-transform: translateX(0) !important;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  -webkit-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Mobile Menu - isti gradient kao hero sekcija - OVERRIDE bg-white sa maksimalnom specifičnošću */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu.bg-white,
+html body.home-three.crm-page .titan-gatekeeper .mobile-menu.bg-white,
+html body.home-three .titan-gatekeeper .mobile-menu.bg-white,
+html body .titan-gatekeeper .mobile-menu.bg-white,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu.bg-white,
+body.home-three.crm-page .titan-gatekeeper .mobile-menu.bg-white,
+body.home-three .titan-gatekeeper .mobile-menu.bg-white,
+body .titan-gatekeeper .mobile-menu.bg-white,
+.titan-gatekeeper .mobile-menu.bg-white,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu,
+html body.home-three.crm-page .titan-gatekeeper .mobile-menu,
+html body.home-three .titan-gatekeeper .mobile-menu,
+html body .titan-gatekeeper .mobile-menu,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu,
+body.home-three.crm-page .titan-gatekeeper .mobile-menu,
+body.home-three .titan-gatekeeper .mobile-menu,
+body .titan-gatekeeper .mobile-menu,
+.titan-gatekeeper .mobile-menu {
+  position: relative !important;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  --bs-bg-opacity: 1 !important;
+  opacity: 1 !important;
+}
+
+/* Crni tekst u mobile menu - maksimalna specifičnost */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .mobile-menu .nav-menu__link,
+html body.home-three .titan-gatekeeper .mobile-menu .nav-menu__link,
+html body .titan-gatekeeper .mobile-menu .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .mobile-menu .nav-menu__link,
+body.home-three .titan-gatekeeper .mobile-menu .nav-menu__link,
+body .titan-gatekeeper .mobile-menu .nav-menu__link,
+.titan-gatekeeper .mobile-menu .nav-menu__link,
+.titan-gatekeeper .mobile-menu .nav-menu__item a,
+.titan-gatekeeper .mobile-menu .text-heading,
+.titan-gatekeeper .mobile-menu .nav-menu__item,
+html body .titan-gatekeeper .mobile-menu .nav-menu__item a,
+html body .titan-gatekeeper .mobile-menu .text-heading {
+  color: #000000 !important;
+}
+
+/* Crni logo u mobile menu */
+.titan-gatekeeper .mobile-menu.bg-white .mobile-menu__logo img,
+.titan-gatekeeper .mobile-menu .mobile-menu__logo img {
+  filter: none !important;
+}
+
+/* Crni close button u mobile menu - maksimalna specifičnost */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .close-button,
+html body.home-three.crm-page .titan-gatekeeper .mobile-menu .close-button,
+html body.home-three .titan-gatekeeper .mobile-menu .close-button,
+html body .titan-gatekeeper .mobile-menu .close-button,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .close-button,
+body.home-three.crm-page .titan-gatekeeper .mobile-menu .close-button,
+body.home-three .titan-gatekeeper .mobile-menu .close-button,
+body .titan-gatekeeper .mobile-menu .close-button,
+.titan-gatekeeper .mobile-menu .close-button {
+  color: #000000 !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  border: none !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .close-button i,
+html body.home-three.crm-page .titan-gatekeeper .mobile-menu .close-button i,
+html body.home-three .titan-gatekeeper .mobile-menu .close-button i,
+html body .titan-gatekeeper .mobile-menu .close-button i,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .close-button i,
+body.home-three.crm-page .titan-gatekeeper .mobile-menu .close-button i,
+body.home-three .titan-gatekeeper .mobile-menu .close-button i,
+body .titan-gatekeeper .mobile-menu .close-button i,
+.titan-gatekeeper .mobile-menu .close-button i {
+  color: #000000 !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .close-button:hover,
+html body.home-three.crm-page .titan-gatekeeper .mobile-menu .close-button:hover,
+html body.home-three .titan-gatekeeper .mobile-menu .close-button:hover,
+html body .titan-gatekeeper .mobile-menu .close-button:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .mobile-menu .close-button:hover,
+body.home-three.crm-page .titan-gatekeeper .mobile-menu .close-button:hover,
+body.home-three .titan-gatekeeper .mobile-menu .close-button:hover,
+body .titan-gatekeeper .mobile-menu .close-button:hover,
+.titan-gatekeeper .mobile-menu .close-button:hover {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: #000000 !important;
+}
+
+.titan-gatekeeper .mobile-menu:not(.active),
+body .titan-gatekeeper .mobile-menu:not(.active),
+.titan-gatekeeper .mobile-menu.tw--translate-x-full:not(.active),
+html body .titan-gatekeeper .mobile-menu:not(.active),
+body.home-three .titan-gatekeeper .mobile-menu:not(.active),
+body.home-three .mobile-menu:not(.active) {
+  transform: translateX(-100%) !important;
+  -webkit-transform: translateX(-100%) !important;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  -webkit-transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Side overlay animacija */
+.titan-gatekeeper .side-overlay {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.titan-gatekeeper .side-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.titan-gatekeeper .side-overlay:not(.show) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Mobile menu inner animacija - fade in */
+.titan-gatekeeper .mobile-menu__inner {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s;
+}
+
+.titan-gatekeeper .mobile-menu.active .mobile-menu__inner {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile menu linkovi - stagger animacija */
+.titan-gatekeeper .mobile-menu.active .nav-menu--mobile .nav-menu__item {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInMenu 0.4s ease forwards;
+}
+
+.titan-gatekeeper .mobile-menu.active .nav-menu--mobile .nav-menu__item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.titan-gatekeeper .mobile-menu.active .nav-menu--mobile .nav-menu__item:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.titan-gatekeeper .mobile-menu.active .nav-menu--mobile .nav-menu__item:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.titan-gatekeeper .mobile-menu.active .nav-menu--mobile .nav-menu__item:nth-child(4) {
+  animation-delay: 0.25s;
+}
+
+.titan-gatekeeper .mobile-menu.active .nav-menu--mobile .nav-menu__item:nth-child(5) {
+  animation-delay: 0.3s;
+}
+
+@keyframes slideInMenu {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Sakrij sticky header kada je mobile meni otvoren */
+body.mobile-menu-open .titan-gatekeeper .header.fixed-header,
+body.mobile-menu-open.home-three .header.fixed-header,
+html body.mobile-menu-open.home-three .header.fixed-header,
+body.mobile-menu-open .header.fixed-header {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Close button animacija */
+.titan-gatekeeper .close-button {
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.titan-gatekeeper .close-button:hover {
+  transform: rotate(90deg);
+}
+
+/* FINALNI OVERRIDE - override .bg-white-06 i sve linkove - maksimalna specifičnost */
+/* Override za header KADA NIJE sticky (kad se tek učita) */
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header-three__inner.bg-white-06 {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+
+/* Override za linkove KADA NIJE sticky (kad se tek učita) */
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item > .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu .nav-menu__item > .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner nav .nav-menu__item > .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu .nav-menu__item > .nav-menu__link {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__item:hover > .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item:hover > .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner .nav-menu__item:hover > .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner nav .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner nav .nav-menu__item:hover > .nav-menu__link {
+  color: #ffffff !important;
+}
+
+/* ULTIMATIVNI OVERRIDE - override .bg-white-06 sa maksimalnom specifičnošću */
+/* Override direktno .bg-white-06 klasu */
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06[style*="background-color"],
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06[style*="background-color"],
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06.header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06.header-three__inner,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .bg-white-06.header-three__inner {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+
+/* ULTIMATIVNI OVERRIDE za linkove */
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner .nav-menu__link,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner nav .nav-menu__item > .nav-menu__link,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item > .nav-menu__link {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header .header-three__inner .nav-menu__item:hover > a,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+
+/* NAPOSLETKU - override .bg-white-06 klasu direktno sa maksimalnom specifičnošću */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner nav .nav-menu__item > a {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner .nav-menu__item:hover > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+
+/* DIREKTAN OVERRIDE - override .bg-white-06 klasu direktno */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06,
+.titan-gatekeeper .header .header-three__inner.bg-white-06,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+
+/* DIREKTAN OVERRIDE za linkove */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 nav .nav-menu__item > a {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header:not(.fixed-header) .header-three__inner.bg-white-06 .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}
+
+/* FINALNI OVERRIDE - direktno .bg-white-06 klasa sa !important na kraju fajla */
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06,
+.titan-gatekeeper .bg-white-06,
+.titan-gatekeeper .header .bg-white-06,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 {
+  background: hsl(var(--white)/0.06) !important;
+  background-color: hsl(var(--white)/0.06) !important;
+}
+
+/* ---------- Verifikacija dokumenta sekcija ---------- */
+.titan-gatekeeper .verification-section {
+  padding: 80px 16px;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+
+.titan-gatekeeper .verification-section .wrapper {
+  max-width: var(--tg-max);
+  margin: 0 auto;
+}
+
+.titan-gatekeeper .verification-section .verification-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 18px;
+  align-items: start;
+}
+
+.titan-gatekeeper .verification-section .verification-title {
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 20px;
+}
+
+.titan-gatekeeper .verification-section .verification-title h2 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(40px, 5vw, 72px);
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.titan-gatekeeper .verification-item {
+  border-radius: var(--tg-radius);
+  border: 1px solid var(--tg-border);
+  padding: 18px;
+  box-shadow: var(--tg-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.titan-gatekeeper .verification-item.regula-block {
+  background: linear-gradient(135deg, var(--amethyst) 0%, var(--indigo) 100%);
+  grid-column: 2;
+  grid-row: 1;
+  min-height: 380px;
+}
+
+.titan-gatekeeper .verification-item.eu-block {
+  background: linear-gradient(135deg, rgba(37, 73, 167, 0.25), rgba(97, 88, 196, 0.2));
+  grid-column: 2;
+  grid-row: 2;
+  min-height: 300px;
+}
+
+.titan-gatekeeper .verification-item.usa-block {
+  background: linear-gradient(135deg, rgba(185, 104, 223, 0.25), rgba(140, 92, 210, 0.2));
+  grid-column: 1;
+  grid-row: 2;
+  min-height: 300px;
+}
+
+.titan-gatekeeper .verification-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(45, 45, 45, 0.15);
+  margin-bottom: 12px;
+}
+
+.titan-gatekeeper .verification-item.regula-block img {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.titan-gatekeeper .verification-item.eu-block img,
+.titan-gatekeeper .verification-item.usa-block img {
+  border: 3px solid #bcd642;
+  box-shadow: 0 0 20px rgba(188, 214, 66, 0.4);
+}
+
+.titan-gatekeeper .verification-item .text {
+  margin-top: 0;
+}
+
+.titan-gatekeeper .verification-item .text h6 {
+  margin: 0 0 12px;
+  font-weight: 800;
+  font-size: clamp(20px, 2.5vw, 28px);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.titan-gatekeeper .verification-item.regula-block .text h6 {
+  color: #ffffff;
+}
+
+.titan-gatekeeper .verification-item.eu-block .text h6,
+.titan-gatekeeper .verification-item.usa-block .text h6 {
+  color: #ffffff;
+}
+
+.titan-gatekeeper .verification-item .text p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.7;
+  font-size: clamp(16px, 1.8vw, 20px);
+  font-weight: 400;
+}
+
+.titan-gatekeeper .verification-item.regula-block .text p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.titan-gatekeeper .verification-item.eu-block .text p,
+.titan-gatekeeper .verification-item.usa-block .text p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.titan-gatekeeper .verification-item .text .text-highlight {
+  color: #bcd642;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(188, 214, 66, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .titan-gatekeeper .verification-section .block1 {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .titan-gatekeeper .verification-section .verification-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .titan-gatekeeper .verification-item.regula-block,
+  .titan-gatekeeper .verification-item.eu-block,
+  .titan-gatekeeper .verification-item.usa-block {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a,
+.titan-gatekeeper .bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link.text-heading,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 nav .nav-menu__item > a {
+  color: #ffffff !important;
+}
+
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+html body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+html body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page.wp-singular.page-template .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+body.home-three.crm-page .titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+body.home-three.crm-page .titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a,
+.titan-gatekeeper .bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__link:hover,
+.titan-gatekeeper .header .header-three__inner.bg-white-06 .nav-menu__item:hover > a {
+  color: #ffffff !important;
+}

@@ -1,0 +1,378 @@
+.site-header {
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 2px 12px 0 rgba(19,21,31,.07);
+  border-bottom: 0;
+  z-index: 100;
+  position: relative;
+}
+
+.header-inner {
+  width: 90%;
+  margin: 0 auto;
+  padding: 18px 0 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.site-branding {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 250px;
+}
+
+.custom-logo-link {
+  width: 100%;
+}
+.custom-logo-link img {
+  width: 250px !important;
+  height: 100px !important;
+  object-fit: contain;
+}
+
+.site-title {
+  font-size: 1.52rem;
+  font-weight: 700;
+  color: #2f86b2; /* nova plava */
+}
+
+/* Desktop meni */
+.main-nav {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-list li {
+  position: relative;
+}
+.menu-list li a {
+  text-decoration: none;
+  color: #2f86b2; /* nova plava */
+  font-size: 1.13rem;
+  font-weight: 500;
+  padding: 6px 0;
+  transition: color .18s;
+}
+.menu-list li a:hover,
+.menu-list li.current-menu-item > a {
+  color: #bcd642; /* nova zelena */
+}
+.menu-list li ul {
+  display: none;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px #2f86b214;
+  min-width: 180px;
+  z-index: 10;
+}
+.menu-list li:hover > ul {
+  display: block;
+}
+.menu-list li ul li a {
+  padding: 12px 18px;
+  display: block;
+  font-size: 1.08rem;
+  color: #2f86b2; /* nova plava */
+  border-radius: 12px;
+  white-space: nowrap;
+}
+.menu-list li ul li a:hover {
+  background: #f6f7fa;
+  color: #bcd642; /* nova zelena */
+}
+.header-cta {
+  margin: 0 !important;
+}
+
+/* Hamburger dugme - krug, bijele linije, glow */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 56px;
+  height: 56px;
+  background: #bcd642; /* nova zelena */
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 24px 0 #bcd6425d;
+  top: 28px;
+  right: 28px;
+  z-index: 12001;
+  cursor: pointer;
+  transition: box-shadow 0.2s, background 0.25s;
+}
+.hamburger span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  border-radius: 2px;
+  background: #fff;
+  transition: all 0.25s;
+}
+.hamburger:hover,
+.hamburger:focus {
+  box-shadow: 0 0 36px 0 #bcd64285;
+}
+
+/* Overlay meni - fullscreen, blur, fade-in */
+.mobile-overlay-menu {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255,0.86);
+  backdrop-filter: blur(18px) saturate(180%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.32s cubic-bezier(.72,0,.28,1);
+  z-index: 12000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-overlay-menu.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Meni lista u overlayu */
+.mobile-overlay-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mobile-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  align-items: center;
+}
+.mobile-menu-list li a {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2f86b2; /* nova plava */
+  text-decoration: none;
+  transition: color 0.17s;
+  letter-spacing: 1px;
+}
+.mobile-menu-list li a:hover {
+  color: #bcd642; /* nova zelena */
+}
+
+/* Overlay close dugme (X) */
+.mobile-overlay-close {
+  background: none;
+  border: none;
+  font-size: 48px !important;
+  color: #2f86b2 !important; /* nova plava */
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 10px;
+  z-index: 9999;
+  box-shadow: none;
+  appearance: none;
+  transition: background .13s;
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+
+.mobile-overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 1500px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  padding: 24px 28px 0 28px;
+  min-height: 72px;
+}
+
+/* Responsive 1080px */
+@media (max-width: 1080px) {
+  .header-inner {
+    padding: 14px 0 10px 0;
+    gap: 16px;
+  }
+  .menu-list { gap: 22px; }
+  .btn-primary.header-cta { padding: 12px 18px; font-size: 1rem;}
+  .custom-logo-link img { height: 80px !important;}
+}
+
+/* Mobilni prikaz */
+@media (max-width: 900px) {
+  .main-nav, .header-cta { display: none !important; }
+  .hamburger { display: flex; }
+  .site-header {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .header-inner {
+    padding-right: 72px; /* prostor za hamburger */
+  }
+}
+
+/* FINE-TUNING for very small screens */
+@media (max-width: 540px) {
+  .site-branding { gap: 6px;}
+  .custom-logo-link img { height: 60px !important; object-fit: contain;width:120px !important;}
+  .site-title { font-size: 1.05rem;}
+  .header-inner { padding: 8px 0 6px 0;}
+  .mobile-overlay-header { padding: 12px 18px 0 18px; }
+}
+@media (min-width: 1500px) {
+  .container { width: 90%; }
+}
+
+.hamburger.is-active span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.is-active span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+.btn.btn-primary:hover {
+  background: #bcd642; /* nova zelena */
+  transform: translateY(-4px);
+  color: #2f86b2;
+}
+.btn.btn-primary {
+  background: #bcd642;
+  color: white;
+  border-radius: 1000px;
+  padding: 13px 34px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background .18s, transform .2s;
+}/* ---------- Dropdown meni – moderni minimalistički stil ---------- */
+.menu-list li ul {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(47, 134, 178, 0.25);
+  padding: 10px 0;
+  min-width: 190px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.menu-list li:hover > ul,
+.menu-list li:focus-within > ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+/* Hover zona da ne nestane prerano */
+.menu-list li.menu-item-has-children::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 16px;
+  background: transparent;
+}
+
+/* Linkovi unutar dropdowna */
+.menu-list li ul li a {
+  display: block;
+  padding: 12px 20px;
+  color: #2f86b2;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+/* Hover efekat – nježna tranzicija */
+.menu-list li ul li a:hover {
+  background: linear-gradient(90deg, #bcd642 0%, #a9c64e 100%);
+  color: #ffffff;
+  transform: translateX(6px);
+}
+/* ---------- Mobile overlay meni - kompaktniji izgled ---------- */
+@media (max-width: 900px) {
+  .mobile-menu-list {
+    gap: 22px; /* manji razmak između linkova */
+  }
+
+  .mobile-menu-list li a {
+    font-size: 1.6rem; /* smanjen font */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  /* Dropdown linkovi unutra */
+  .mobile-menu-list li ul li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2f86b2;
+    padding: 6px 0;
+    opacity: 0.95;
+  }
+
+  /* Lagani fade + slide kad se otvori */
+  .mobile-menu-list li ul {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: all 0.3s ease;
+  }
+
+  .mobile-menu-list li.open > ul {
+    max-height: 400px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  /* Strelica pored dropdown linka */
+  .mobile-menu-list .menu-item-has-children > a::after {
+    content: "▾";
+    font-size: 0.7em;
+    margin-left: 8px;
+    color: #bcd642;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .mobile-menu-list .menu-item-has-children.open > a::after {
+    transform: rotate(180deg);
+    color: #2f86b2;
+  }
+}

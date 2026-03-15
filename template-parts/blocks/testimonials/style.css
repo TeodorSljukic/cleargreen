@@ -1,0 +1,151 @@
+.testimonials-section {
+  background: #f6f8fc;
+  padding: 60px 0 24px 0;
+}
+.testimonials-2x2grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 48px 48px;
+  width: 80%;
+  margin: 0 auto;
+  align-items: stretch;
+}
+.testimonials-meta {
+  padding: 32px 28px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.testimonials-subtitle {
+  color: #bcd642; /* nova zelena */
+  font-weight: 700;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.testimonials-subtitle span {
+  display: inline-block;
+  width: 24px; height: 3px;
+  background: #bcd642; /* nova zelena */
+  border-radius: 2px;
+}
+.testimonials-title {
+  font-size: 2.13rem;
+  line-height: 1.17;
+  font-weight: 800;
+  color: #2f86b2; /* nova plava */
+  margin: 22px 0 0 0;
+}
+
+.testimonials-button {
+  margin-top: 32px;
+  width: 25%;
+  min-width: 200px;
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Testimonial kartica */
+.testimonial-card {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 8px 38px 0 rgba(47,134,178,0.12); /* nova plava sjena */
+  padding: 32px 28px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 320px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #2f86b2; /* nova plava */
+}
+.testimonial-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+.testimonial-company {
+  font-weight: 700;
+  color: #2f86b2; /* nova plava */
+  font-size: 1.21rem;
+  margin-left: 4px;
+}
+.testimonial-quote-title {
+  font-weight: 700;
+  font-size: 1.13rem;
+  color: #2f86b2; /* nova plava */
+  margin-bottom: 8px;
+}
+.testimonial-quote-text {
+  color: #757ba5;
+  font-size: 1.07rem;
+  line-height: 1.52;
+  margin-bottom: 12px;
+}
+.testimonial-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+.testimonial-person-img {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+.testimonial-person-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.testimonial-person-name {
+  font-weight: 700;
+  font-size: 1.08rem;
+  color: #232845;
+}
+.testimonial-person-role {
+  color: #bcd642; /* nova zelena */
+  font-size: 1.04rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .testimonials-2x2grid{
+    width: 95%;
+  }
+  .testimonials-button{
+    margin-top: 30px !important;
+    width: 20%;
+  }
+  .testimonials-2x2grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 24px 0;
+  }
+  .testimonials-meta,
+  .testimonial-card {
+    min-width: 0;
+    border-radius: 18px;
+    padding: 18px 8px 18px 8px;
+  }
+  .testimonials-title { font-size: 1.15rem; }
+}

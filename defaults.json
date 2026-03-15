@@ -1,0 +1,240 @@
+{
+    "bcms_fp_hero_tag": "ClearGreen Solutions",
+    "bcms_fp_hero_title": "Povjerenje počinje<br><span class=\"text-acc\">provjerenim</span> identitetom.",
+    "bcms_fp_hero_desc": "Digitalna identifikacija, kontrola pristupa i automatizacija poslovanja, za sektore gdje greška košta reputacije.",
+    "bcms_fp_hero_btn1_text": "Kontaktirajte nas",
+    "bcms_fp_hero_btn1_url": "#kontakt",
+    "bcms_fp_hero_btn2_text": "Pogledajte naša rješenja",
+    "bcms_fp_hero_btn2_url": "#usluge",
+    "bcms_fp_about_tag": "O nama",
+    "bcms_fp_about_title": "Clear<span class=\"text-acc\">Green</span>",
+    "bcms_fp_about_p1": "Razvili smo platformu koja povezuje provjeru identiteta, kontrolu pristupa i digitalizaciju procesa. Radimo za banke, telekome i javne institucije — sektore gdje greška košta reputacije.",
+    "bcms_fp_about_p2": "Naša rješenja su SaaS i mogu biti on-prem ili cloud hostovana, u skladu s vašim sigurnosnim politikama.",
+    "bcms_fp_about_p3": "Vizija nam je da budemo partner svakoj organizaciji koja želi raditi pametnije, isporučiti više i učiniti svoje procese otpornima na greške.",
+    "bcms_fp_about_btn_text": "Kontaktirajte nas",
+    "bcms_fp_about_btn_url": "#kontakt",
+    "bcms_fp_about_badge_num": "20+",
+    "bcms_fp_about_badge_txt": "Godina<br>iskustva",
+    "bcms_fp_why_tag": "Zašto sarađivati sa nama?",
+    "bcms_fp_why_title": "Radimo u sektorima gdje greška košta <span class=\"text-acc\">reputacije.</span>",
+    "bcms_fp_why_desc": "ClearGreen rješenja su aktivna u bankama, institucijama, zdravstvu i logistici — svuda gdje tačnost, sigurnost i usklađenost nisu opcija nego obaveza.",
+    "bcms_fp_why_bottom": "Nije vaš sektor na listi? Vjerovatno smo ga već riješili.",
+    "bcms_fp_why_btn_text": "Kontaktirajte nas",
+    "bcms_fp_why_btn_url": "#kontakt",
+    "bcms_fp_svc_tag": "Naše usluge",
+    "bcms_fp_svc_title": "Nudimo rješenja koja omogućavaju vašem poslovanju da <span class=\"text-acc\">radi pametnije.</span>",
+    "bcms_fp_svc_btn_text": "Stupite u kontakt",
+    "bcms_fp_svc_btn_url": "#kontakt",
+    "bcms_fp_cta_title": "Spremni da svoj projekat pretvorite u <em>stvarnost?</em>",
+    "bcms_fp_cta_btn_text": "Kontaktirajte nas",
+    "bcms_fp_cta_btn_url": "#kontakt",
+    "bcms_fp_proc_tag": "Naš proces – jednostavan i pouzdan",
+    "bcms_fp_proc_title": "Postavljamo prilagođeni pilot u roku od <span class=\"text-acc\">48h.</span>",
+    "bcms_fp_proc_btn_text": "Kontaktirajte nas",
+    "bcms_fp_proc_btn_url": "#kontakt",
+    "bcms_fp_test_tag": "Partneri",
+    "bcms_fp_test_title": "Šta kažu <span class=\"text-acc\">o nama</span>",
+    "bcms_fp_contact_tag": "Kontakt",
+    "bcms_fp_contact_title": "Spremni da svoj projekat pretvorite u <span class=\"text-acc\">stvarnost?</span>",
+    "bcms_fp_contact_desc": "Hajde da razgovaramo o tome kako vam možemo pomoći. Odgovaramo u roku od 24 sata.",
+    "bcms_fp_contact_email": "stefan.planic@cleargreen.me",
+    "bcms_fp_contact_phone": "+382 (0) 68 090 161",
+    "bcms_fp_contact_phone_raw": "+38268090161",
+    "bcms_fp_contact_form_title": "Pošaljite nam poruku",
+    "bcms_fp_contact_form_sub": "Odgovaramo u roku od 24 sata.",
+    "bcms_fp_hero_stats": [
+        {
+            "number": "End-to-end",
+            "label": "IT rješenja"
+        },
+        {
+            "number": "99.9%",
+            "label": "Uptime"
+        },
+        {
+            "number": "48h",
+            "label": "Pilot setup"
+        },
+        {
+            "number": "20+",
+            "label": "Godina iskustva"
+        }
+    ],
+    "bcms_fp_why_cards": [
+        {
+            "icon": "bank.png",
+            "title": "Banke i finansije",
+            "desc": "Identifikacija klijenata na šalteru — pouzdana, brza i usklađena sa regulatornim zahtjevima.",
+            "tags": "BASIC, Alter One"
+        },
+        {
+            "icon": "fas fa-landmark",
+            "title": "Javne institucije",
+            "desc": "Kontrola pristupa i digitalna evidencija posjetilaca sa punim audit tragom.",
+            "tags": "GateKeeper, DMS"
+        },
+        {
+            "icon": "fas fa-satellite-dish",
+            "title": "Telekomunikacije",
+            "desc": "SIM i eSIM aktivacija jedino sa verifikovanim identitetom u core sistemu operatera.",
+            "tags": "SIMPLEX"
+        },
+        {
+            "icon": "fas fa-truck",
+            "title": "Logistika i javna preduzeća",
+            "desc": "Svako vozilo, svaka ruta i svaki litar goriva — vidljivi i mjerljivi u realnom vremenu.",
+            "tags": "GreenFleet"
+        },
+        {
+            "icon": "fas fa-parking",
+            "title": "Gradovi i parking servisi",
+            "desc": "Mobilno plaćanje, digitalne dozvole i automatski izvještaji bez papirne administracije.",
+            "tags": "Smart Parking"
+        },
+        {
+            "icon": "fas fa-heartbeat",
+            "title": "Zdravstvo",
+            "desc": "Digitalni karton, e-posjete i podaci zaštićeni blockchain tehnologijom — dostupni uvijek.",
+            "tags": "e-Zdravstvo"
+        }
+    ],
+    "bcms_fp_svc_items": [
+        {
+            "name": "GateKeeper",
+            "desc": "Digitalna portirnica. Kontrola pristupa i evidencija posjetilaca zasnovana na Regula Forensics tehnologiji — GDPR i ISO 27001 usklađena.",
+            "for_whom": "Banke · Institucije · Telekomi · Korporacije",
+            "link": "https://cleargreen.me/gate-keeper/",
+            "featured": "1"
+        },
+        {
+            "name": "BASIC",
+            "desc": "Verifikacija identiteta klijenata na šalteru — MRZ, NFC i OCR čitanje dokumenta za 10 sekundi.",
+            "for_whom": "Banke · Mikrokrediti · Javne institucije",
+            "link": ""
+        },
+        {
+            "name": "SIMPLEX",
+            "desc": "SIM i eSIM aktivacija isključivo sa potvrđenim identitetom u core sistemu operatera.",
+            "for_whom": "Telekomunikacijski operateri",
+            "link": ""
+        },
+        {
+            "name": "DMS — Document Management",
+            "desc": "Skenirajte, arhivirajte i pretražujte dokumentaciju na jednom mjestu. Revizijski čist, sigurno dijeljenje.",
+            "for_whom": "Svi sektori",
+            "link": ""
+        },
+        {
+            "name": "Alter One — Fintech",
+            "desc": "Automatizacija kreditnih procesa, portoflio upravljanje i regulatorni izvještaji za mikrofinansijske institucije.",
+            "for_whom": "Mikrokrediti · Finansije",
+            "link": ""
+        },
+        {
+            "name": "GreenFleet — GPS &amp; Flota",
+            "desc": "Praćenje vozila u realnom vremenu, CAN analiza, potrošnja goriva i optimizacija ruta.",
+            "for_whom": "Logistika · Distribucija · Javna preduzeća",
+            "link": ""
+        },
+        {
+            "name": "Smart Parking",
+            "desc": "Mobilno plaćanje parkinga, digitalne dozvole i analitika za operatere i gradove.",
+            "for_whom": "Gradovi · Parking servisi · Turizam",
+            "link": ""
+        },
+        {
+            "name": "e-Zdravstvo",
+            "desc": "Digitalni karton pacijenta, e-posjete i blockchain zaštita medicinskih podataka.",
+            "for_whom": "Zdravstvene ustanove",
+            "link": ""
+        },
+        {
+            "name": "CRM &amp; poslovni softver",
+            "desc": "CRM po mjeri — praćenje prodaje, klijenata i poslovnih procesa u jednom sistemu.",
+            "for_whom": "Preduzeća svih sektora",
+            "link": ""
+        }
+    ],
+    "bcms_fp_proc_steps": [
+        {
+            "number": "1",
+            "title": "Razumijemo procese, dizajniramo rješenje",
+            "desc": "Brzo mapiramo gdje nastaju rizici: identitet, pristup, dokumenti i operacije. Na toj osnovi sklapamo ciljnu arhitekturu prilagođenu vašim potrebama."
+        },
+        {
+            "number": "2",
+            "title": "Pilot u realnim uslovima",
+            "desc": "U roku od 48h sati postavljamo prilagođeni pilot u vašem okruženju i povezujemo ga sa core sistemima. Testiranje na stvarnim procesima — odmah."
+        },
+        {
+            "number": "3",
+            "title": "Implementacija i podrška",
+            "desc": "Glatka tranzicija, obuka zaposlenih i tehnička dokumentacija. Nakon pokretanja, ostajemo vaš partner za sve nadogradnje i podršku."
+        }
+    ],
+    "bcms_fp_test_partners": [
+        {
+            "name": "Adriatic Bank"
+        },
+        {
+            "name": "Alter Modus"
+        },
+        {
+            "name": "CKB Banka"
+        },
+        {
+            "name": "Telemach"
+        },
+        {
+            "name": "B-ONE"
+        },
+        {
+            "name": "CINMED"
+        },
+        {
+            "name": "SAT-TRAKT"
+        },
+        {
+            "name": "Permar Plus"
+        },
+        {
+            "name": "2AI4ME"
+        }
+    ],
+    "bcms_fp_test_cards": [
+        {
+            "quote": "Saradnja sa Cleargreen timom značajno je unaprijedila digitalne procese u mikrofinansijama.",
+            "company": "Alter Modus",
+            "logo": ""
+        },
+        {
+            "quote": "Cleargreen je implementirao softver za identifikaciju u naših devet poslovnica — proces je sigurniji i efikasniji.",
+            "company": "Adriatic Bank",
+            "logo": ""
+        },
+        {
+            "quote": "Instalacijom Cleargreen GateKeeper sistema značajno smo unaprijedili kontrolu pristupa i sigurnost u poslovnoj zgradi.",
+            "company": "CKB Banka",
+            "logo": ""
+        },
+        {
+            "quote": "U okruženju sa velikim protokom posjetilaca, GateKeeper je značajno smanjio operativni rizik na ulazu i ubrzao rad recepcije.",
+            "company": "Telemach",
+            "logo": ""
+        },
+        {
+            "quote": "Zajedno sa Cleargreen-om razvijamo napredne informaciono-komunikacione sisteme za klijente širom regiona.",
+            "company": "B-ONE",
+            "logo": ""
+        },
+        {
+            "quote": "Naše AI inovacije, uz Cleargreen-ovu ekspertizu, donose praktične alate za poslovnu transformaciju.",
+            "company": "CINMED",
+            "logo": ""
+        }
+    ],
+    "bcms_nonce": "61b50562f5",
+    "bcms_fp_about_image": "",
+    "_version": 1,
+    "_exported_at": "2026-03-11T13:31:23+00:00"
+}

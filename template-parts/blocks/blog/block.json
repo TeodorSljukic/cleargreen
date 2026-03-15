@@ -1,0 +1,18 @@
+{
+    "name": "acf/blog",
+    "title": "Blog Section",
+    "description": "Hero",
+    "category": "layout",
+    "icon": "info",
+    "keywords": ["about", "o nama", "statistike"],
+    "acf": {
+      "mode": "edit",
+      "renderTemplate": "template-parts/blocks/blog/render.php"
+    },
+    "style": "file:./style.css",
+    "supports": {
+      "align": true,
+      "jsx": true
+    }
+  }
+  

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:cleargreen.me)",
+      "Read(//c/Users/User/Local Sites/cleargreen/app/public/**)",
+      "Read(//c//**)",
+      "Read(//c/xampp/php/**)",
+      "Read(//c/wamp64/bin/**)",
+      "Read(//c/Users/User/Local Sites/cleargreen//**)",
+      "Bash(/c/xampp/php/php.exe -r \":*)",
+      "Bash(xxd front-page.php)"
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+.about-experts-section {
+  padding: 64px 0 64px 0;
+  position: relative;
+  background: #fff;
+}
+
+.about-experts-flex {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.about-experts-left {
+  max-width: 430px;
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.about-experts-subtitle {
+  color: #ff3951;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 4px;
+  letter-spacing: 0.01em;
+}
+
+.about-experts-title {
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 1.13;
+  color: #172040;
+  margin: 0 0 6px 0;
+}
+
+.about-experts-desc {
+  color: #616881;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  line-height: 1.55;
+}
+
+.about-experts-img-left {
+  margin-top: 22px;
+}
+
+.about-experts-img-left img {
+  width: 100%;
+  max-width: 430px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 16px 64px 0 rgba(24,39,80,0.08), 0 2px 8px 0 rgba(24,39,80,0.06);
+}
+
+.about-experts-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1 1 340px;
+}
+
+.about-experts-img-right img {
+  width: 580px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: 0 16px 64px 0 rgba(24,39,80,0.08), 0 2px 8px 0 rgba(24,39,80,0.06);
+  display: block;
+}
+
+.about-experts-img-rt img { margin-bottom: 0; }
+.about-experts-img-rb img { margin-top: 0; }
+
+/* ---- RESULTS SECTION "PODVUCI" ---- */
+.results-section {
+ width: 100%;
+  background: rgb(245, 247, 252);
+  margin-top: -500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 500px;
+  padding-bottom: 50px;
+}
+
+.results-inner {
+  width: 55%;
+  padding: 48px 48px 48px 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.results-title {
+  color: #7177a5;
+  font-size: 1.38rem;
+  font-weight: 500;
+  margin-bottom: 42px;
+  letter-spacing: .01em;
+}
+
+.results-grid {
+  display: flex;
+  gap: 38px;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.results-card {
+  background: #fff;
+  border-radius: 28px;
+  box-shadow: 0 8px 38px 0 rgba(24,39,80,0.08), 0 2px 8px 0 rgba(24,39,80,0.04);
+  padding: 38px 44px 28px 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.16s, transform 0.18s;
+}
+
+.results-card:hover {
+  box-shadow: 0 14px 60px 0 rgba(24,39,80,0.15), 0 2px 8px 0 rgba(24,39,80,0.05);
+  transform: translateY(-7px) scale(1.035);
+}
+
+.results-value {
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -.01em;
+  margin-bottom: 10px;
+  color: #232941;
+  display: inline-block;
+}
+
+.results-value span {
+  font-size: 2.1rem;
+  font-weight: 800;
+  vertical-align: super;
+  margin-left: 2px;
+}
+
+.results-red { color: #ff3951; }
+.results-purple { color: #6c43f2; }
+.results-yellow { color: #ffd24c; }
+.results-blue { color: #2a5aff; }
+
+.results-label {
+  font-size: 1.09rem;
+  color: #7177a5;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* ----- RESPONSIVE ----- */
+@media (max-width: 1280px) {
+  .results-inner {
+    width: 70%;
+    padding: 38px 24px 38px 32px;
+  }
+  .results-grid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about-experts-flex {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 36px;
+    max-width: 98vw;
+  }
+  .about-experts-img-left img,
+  .about-experts-img-right img {
+    width: 100%;
+    max-width: 100%;
+    min-height: 180px;
+    height: auto;
+  }
+  .about-experts-right {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  .about-experts-img-right img {
+    height: 150px;
+  }
+  .results-section {
+    margin-top: 0;
+    justify-content: center;
+  }
+  .results-inner {
+    width: 100%;
+    border-radius: 24px;
+    padding: 32px 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-experts-section {
+    padding: 36px 0 18px 0;
+  }
+  .about-experts-flex {
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 4vw;
+  }
+  .about-experts-title {
+    font-size: 1.36rem;
+  }
+  .about-experts-desc {
+    font-size: 0.97rem;
+  }
+  .about-experts-img-left img,
+  .about-experts-img-right img {
+    border-radius: 16px;
+    box-shadow: 0 8px 24px 0 rgba(24,39,80,0.08);
+    min-height: 100px;
+  }
+  .about-experts-right {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .results-section {
+    padding: 16px 0;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .results-inner {
+    width: 100%;
+    border-radius: 12px;
+    padding: 16px 2vw;
+    align-items: center;
+  }
+  .results-title {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+  }
+  .results-grid {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .results-card {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 22px 8px;
+  }
+}

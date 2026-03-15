@@ -1,0 +1,18 @@
+{
+    "name": "acf/why-us",
+    "title": "Why us Section",
+    "description": "Hero",
+    "category": "layout",
+    "icon": "info",
+    "keywords": ["about", "o nama", "statistike"],
+    "acf": {
+      "mode": "edit",
+      "renderTemplate": "template-parts/blocks/why-us/render.php"
+    },
+    "style": "file:./style.css",
+    "supports": {
+      "align": true,
+      "jsx": true
+    }
+  }
+  

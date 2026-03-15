@@ -1,0 +1,18 @@
+{
+    "name": "acf/testimonials",
+    "title": "testimonials Section",
+    "description": "Hero",
+    "category": "layout",
+    "icon": "info",
+    "keywords": ["about", "o nama", "statistike"],
+    "acf": {
+      "mode": "edit",
+      "renderTemplate": "template-parts/blocks/testimonials/render.php"
+    },
+    "style": "file:./style.css",
+    "supports": {
+      "align": true,
+      "jsx": true
+    }
+  }
+  

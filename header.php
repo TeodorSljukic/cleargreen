@@ -57,13 +57,18 @@ endif; ?>
       <span></span>
     </button>
     <nav class="main-nav" aria-label="Main Menu">
-      <?php
-wp_nav_menu([
-  'theme_location' => 'primary', // promeni ako koristiš drugo ime lokacije
-  'menu_class' => 'menu-list', // tvoje klase za desktop meni
-  'container' => false,
-]);
-?>
+      <ul class="menu-list">
+        <li><a href="<?php echo esc_url(home_url('/#hero')); ?>">Početna</a></li>
+        <li><a href="<?php echo esc_url(home_url('/#o-nama')); ?>">O nama</a></li>
+        <li class="menu-item-has-children">
+          <a href="<?php echo esc_url(home_url('/#usluge')); ?>">Usluge</a>
+          <ul>
+            <li><a href="<?php echo esc_url(home_url('/gate-keeper/')); ?>">GateKeeper</a></li>
+          </ul>
+        </li>
+        <li><a href="<?php echo esc_url(home_url('/#proces')); ?>">Proces</a></li>
+        <li><a href="<?php echo esc_url(home_url('/#kontakt')); ?>">Kontakt</a></li>
+      </ul>
     </nav>
     <a href="#contact" class="btn btn-primary header-cta">Get in Touch →</a>
   </div>
@@ -103,13 +108,18 @@ endif; ?>
       </div>
     </div>
     <nav class="mobile-overlay-nav">
-      <?php
-wp_nav_menu([
-  'theme_location' => 'primary', // isti meni i za mobilni
-  'menu_class' => 'mobile-menu-list',
-  'container' => false,
-]);
-?>
+      <ul class="mobile-menu-list">
+        <li><a href="<?php echo esc_url(home_url('/#hero')); ?>">Početna</a></li>
+        <li><a href="<?php echo esc_url(home_url('/#o-nama')); ?>">O nama</a></li>
+        <li class="menu-item-has-children">
+          <a href="<?php echo esc_url(home_url('/#usluge')); ?>">Usluge</a>
+          <ul>
+            <li><a href="<?php echo esc_url(home_url('/gate-keeper/')); ?>">GateKeeper</a></li>
+          </ul>
+        </li>
+        <li><a href="<?php echo esc_url(home_url('/#proces')); ?>">Proces</a></li>
+        <li><a href="<?php echo esc_url(home_url('/#kontakt')); ?>">Kontakt</a></li>
+      </ul>
     </nav>
   </div>
 </header>

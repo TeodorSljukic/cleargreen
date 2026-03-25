@@ -129,33 +129,60 @@
   box-shadow: 0 0 36px 0 #bcd64285;
 }
 
-/* Overlay meni - fullscreen, blur, fade-in */
+/* ── Fullscreen mobile overlay ── */
 .mobile-overlay-menu {
   position: fixed;
   inset: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(255,255,255,0.86);
-  backdrop-filter: blur(18px) saturate(180%);
+  background: linear-gradient(160deg, #0a0e1a 0%, #0e1525 40%, #131b2e 100%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.32s cubic-bezier(.72,0,.28,1);
+  transition: opacity .4s cubic-bezier(.4,0,.2,1);
   z-index: 12000;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
+
+/* Subtle green glow */
+.mobile-overlay-menu::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  right: -20%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(188,214,66,.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+.mobile-overlay-menu::after {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: -15%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(47,134,178,.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
 .mobile-overlay-menu.active {
   opacity: 1;
   pointer-events: all;
 }
 
-/* Meni lista u overlayu */
+/* ── Menu list ── */
 .mobile-overlay-nav {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 .mobile-menu-list {
   list-style: none;
@@ -163,49 +190,94 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 0;
   align-items: center;
+  width: 85%;
+  max-width: 400px;
+}
+.mobile-menu-list > li {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.mobile-menu-list > li:last-child {
+  border-bottom: none;
 }
 .mobile-menu-list li a {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #2f86b2; /* nova plava */
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgba(255,255,255,.85);
   text-decoration: none;
-  transition: color 0.17s;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
+  display: block;
+  padding: 18px 0;
+  transition: color .2s ease, transform .2s ease;
+  position: relative;
 }
-.mobile-menu-list li a:hover {
-  color: #bcd642; /* nova zelena */
+.mobile-menu-list li a:hover,
+.mobile-menu-list li a:active {
+  color: #bcd642;
+  transform: scale(1.03);
 }
 
-/* Overlay close dugme (X) */
+/* ── Active link accent line ── */
+.mobile-menu-list > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 40px;
+  height: 2px;
+  background: #bcd642;
+  border-radius: 2px;
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+.mobile-menu-list > li > a:hover::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+/* ── Close button ── */
 .mobile-overlay-close {
-  background: none;
-  border: none;
-  font-size: 48px !important;
-  color: #2f86b2 !important; /* nova plava */
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 24px !important;
+  color: rgba(255,255,255,.8) !important;
   cursor: pointer;
   line-height: 1;
-  padding: 0 10px;
+  padding: 0;
   z-index: 9999;
   box-shadow: none;
   appearance: none;
-  transition: background .13s;
+  transition: background .2s, border-color .2s, transform .2s;
   position: absolute;
-  top: 36px;
-  right: 36px;
+  top: 28px;
+  right: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-overlay-close:hover {
+  background: rgba(188,214,66,.15);
+  border-color: rgba(188,214,66,.3);
+  transform: rotate(90deg);
 }
 
+/* ── Header inside overlay ── */
 .mobile-overlay-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90vw;
-  max-width: 1500px;
+  width: 85%;
+  max-width: 400px;
   position: absolute;
   top: 10px;
-  left: 0;
-  padding: 24px 28px 0 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 24px 0 0 0;
   min-height: 72px;
 }
 
@@ -270,59 +342,96 @@
   cursor: pointer;
   transition: background .18s, transform .2s;
 }/* ---------- Dropdown meni – moderni minimalistički stil ---------- */
-.menu-list li ul {
-  position: absolute;
-  top: 110%;
-  left: 0;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(47, 134, 178, 0.25);
-  padding: 10px 0;
-  min-width: 190px;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(10px);
-  transition: all 0.25s ease;
-  pointer-events: none;
-  z-index: 100;
+/* ── Dropdown chevron na parent linku ── */
+.menu-list .menu-item-has-children > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.menu-list .menu-item-has-children > a::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+  opacity: .7;
+  margin-top: -2px;
+}
+.menu-list .menu-item-has-children:hover > a::after {
+  transform: rotate(-135deg);
+  opacity: 1;
 }
 
+/* ── Poravnanje svih linkova u meniju ── */
+.menu-list li {
+  display: flex;
+  align-items: center;
+}
+.menu-list li a {
+  display: flex;
+  align-items: center;
+}
+
+/* ── Dropdown panel ── */
+.menu-list li ul {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  min-width: 100%;
+  padding: 6px;
+  background: #0e1525;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0,0,0,.4);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+  z-index: 200;
+  list-style: none;
+}
+
+/* ── Show on hover ── */
 .menu-list li:hover > ul,
 .menu-list li:focus-within > ul {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateX(-50%) translateY(0);
   pointer-events: all;
 }
 
-/* Hover zona da ne nestane prerano */
+/* ── Hover bridge ── */
 .menu-list li.menu-item-has-children::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
+  left: -20px;
+  right: -20px;
   top: 100%;
-  height: 16px;
+  height: 20px;
   background: transparent;
 }
 
-/* Linkovi unutar dropdowna */
+/* ── Dropdown links ── */
 .menu-list li ul li a {
   display: block;
-  padding: 12px 20px;
-  color: #2f86b2;
+  padding: 10px 16px;
+  color: rgba(255,255,255,.75);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: .95rem;
   text-decoration: none;
   border-radius: 8px;
-  transition: all 0.25s ease;
+  transition: background .2s ease, color .2s ease;
+  white-space: nowrap;
+  text-align: center;
 }
 
-/* Hover efekat – nježna tranzicija */
+/* ── Hover state ── */
 .menu-list li ul li a:hover {
-  background: linear-gradient(90deg, #bcd642 0%, #a9c64e 100%);
-  color: #ffffff;
-  transform: translateX(6px);
+  background: rgba(188,214,66,.1);
+  color: #bcd642;
 }
 /* ---------- Mobile overlay meni - kompaktniji izgled ---------- */
 @media (max-width: 900px) {
@@ -336,43 +445,78 @@
     letter-spacing: 0.5px;
   }
 
-  /* Dropdown linkovi unutra */
-  .mobile-menu-list li ul li a {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #2f86b2;
-    padding: 6px 0;
-    opacity: 0.95;
-  }
-
-  /* Lagani fade + slide kad se otvori */
+  /* ── Mobile dropdown submenu ── */
   .mobile-menu-list li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 8px 0;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    visibility: hidden;
-    transform: translateY(-6px);
-    transition: all 0.3s ease;
+    transition: max-height .4s cubic-bezier(.4,0,.2,1), opacity .3s ease;
   }
 
   .mobile-menu-list li.open > ul {
-    max-height: 400px;
+    max-height: 300px;
     opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
   }
 
-  /* Strelica pored dropdown linka */
+  .mobile-menu-list li ul li {
+    border-bottom: none !important;
+  }
+
+  .mobile-menu-list li ul li a {
+    font-size: 1.05rem !important;
+    font-weight: 500 !important;
+    color: #bcd642 !important;
+    padding: 12px 20px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(188,214,66,.06);
+    border-radius: 12px;
+    margin: 4px auto;
+    width: 90%;
+    transition: background .2s ease, transform .2s ease !important;
+  }
+  .mobile-menu-list li ul li a::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #bcd642;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .mobile-menu-list li ul li a::after {
+    display: none !important;
+  }
+  .mobile-menu-list li ul li a:hover {
+    background: rgba(188,214,66,.14) !important;
+    transform: scale(1.02) !important;
+  }
+
+  /* ── Chevron on parent ── */
+  .mobile-menu-list .menu-item-has-children > a {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+  }
   .mobile-menu-list .menu-item-has-children > a::after {
-    content: "▾";
-    font-size: 0.7em;
-    margin-left: 8px;
-    color: #bcd642;
-    transition: transform 0.3s ease, color 0.3s ease;
+    content: "" !important;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #bcd642;
+    border-bottom: 2px solid #bcd642;
+    transform: rotate(45deg);
+    margin-left: 6px;
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+    position: static !important;
+    background: none !important;
   }
 
   .mobile-menu-list .menu-item-has-children.open > a::after {
-    transform: rotate(180deg);
-    color: #2f86b2;
+    transform: rotate(-135deg);
   }
 }
